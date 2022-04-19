@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-04-19 08:08:57</sys_created_on>
+        <sys_id>729ff14c4783cd9005511c42846d431d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.admin</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_security_acl/>
+        <sys_update_name>sys_security_acl_role_729ff14c4783cd9005511c42846d431d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-04-19 08:08:57</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

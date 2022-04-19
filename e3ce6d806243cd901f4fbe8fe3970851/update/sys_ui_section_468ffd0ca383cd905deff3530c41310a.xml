@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="468ffd0ca383cd905deff3530c41310a" sys_domain="global" table="sys_user" version="3" view="custom_portal_settings_x_avnet_04_reyno_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2022-04-19 08:08:45</sys_created_on>
+            <sys_id>8a8ffd0c2883cd9045d7ad352dd2df0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="0a8ffd0cce83cd908dc1a4a25f164e0a">468ffd0ca383cd905deff3530c41310a</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2022-04-19 08:08:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2022-04-19 08:08:45</sys_created_on>
+            <sys_id>0e8ffd0cbf83cd9073dcd243203b0b0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="0a8ffd0cce83cd908dc1a4a25f164e0a">468ffd0ca383cd905deff3530c41310a</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2022-04-19 08:08:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preferred_language</element>
+            <position>2</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2022-04-19 08:08:45</sys_created_on>
+            <sys_id>868ffd0c6183cd90e575f082a476cf0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="0a8ffd0cce83cd908dc1a4a25f164e0a">468ffd0ca383cd905deff3530c41310a</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2022-04-19 08:08:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2022-04-19 08:08:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>468ffd0ca383cd905deff3530c41310a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+            <sys_update_name>sys_ui_section_468ffd0ca383cd905deff3530c41310a</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2022-04-19 08:08:45</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal settings (x_avnet_04_reyno_0)" name="custom_portal_settings_x_avnet_04_reyno_0">0a8ffd0cce83cd908dc1a4a25f164e0a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

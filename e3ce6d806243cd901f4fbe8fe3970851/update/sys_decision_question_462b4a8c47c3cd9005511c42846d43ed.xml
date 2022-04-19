@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>792b4a8c47c3cd9005511c42846d43d9</answer>
+        <condition table="var__m_sys_decision_input_85cac28447c3cd9005511c42846d43bd">u_expense_request.state=4^EQ<item display_value="4" endquery="false" field="u_expense_request.state" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Expense notification decision">85cac28447c3cd9005511c42846d43bd</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_85cac28447c3cd9005511c42846d43bd</input_table>
+        <label>Expense notification decision_300</label>
+        <order>300</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 08:59:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>462b4a8c47c3cd9005511c42846d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expense notification decision_300</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_decision_question_462b4a8c47c3cd9005511c42846d43ed</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 08:59:25</sys_updated_on>
+    </sys_decision_question>
+</record_update>

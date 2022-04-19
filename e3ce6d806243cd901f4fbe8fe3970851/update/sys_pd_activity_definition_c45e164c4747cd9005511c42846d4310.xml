@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type display_value="Record">e12af577871333003058d1a936cb0ba4</activity_type>
+        <badge/>
+        <category/>
+        <description>Add more line items to this request</description>
+        <input_display_preferences>expense_request=all;</input_display_preferences>
+        <inputs/>
+        <label>Add expense line item</label>
+        <name>add_expense_line_item</name>
+        <source>965a96444747cd9005511c42846d434f</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 10:24:45</sys_created_on>
+        <sys_id>c45e164c4747cd9005511c42846d4310</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Add expense line item</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_c45e164c4747cd9005511c42846d4310</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 10:28:10</sys_updated_on>
+        <system_level>false</system_level>
+        <table>x_avnet_04_reyno_0_expense_request</table>
+        <type_vals/>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=c45e164c4747cd9005511c42846d4310"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c45e164c4747cd9005511c42846d4310</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 10:28:11</sys_created_on>
+        <sys_id>167f52cc4747cd9005511c42846d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 10:28:11</sys_updated_on>
+        <value>collect_data</value>
+        <variable display_value="Form View">7cb449e85b41001070e4492c11f91a06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c45e164c4747cd9005511c42846d4310</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 10:28:11</sys_created_on>
+        <sys_id>527f52cc4747cd9005511c42846d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 10:28:11</sys_updated_on>
+        <value>{{act.act_instance.description}}</value>
+        <variable display_value="Tagline">9a0c340673030010fe4a6da44cf6a7de</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c45e164c4747cd9005511c42846d4310</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 10:28:11</sys_created_on>
+        <sys_id>9e7f52cc4747cd9005511c42846d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 10:28:11</sys_updated_on>
+        <value>record_details_fill</value>
+        <variable display_value="Icon">ad4db04673030010fe4a6da44cf6a798</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity_definition</document>
+        <document_key>c45e164c4747cd9005511c42846d4310</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 10:28:10</sys_created_on>
+        <sys_id>d67f52cc4747cd9005511c42846d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 10:28:10</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Associated table">77edf4e40f100010f5bf5ae9c4767edb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_965a96444747cd9005511c42846d434f^id=c45e164c4747cd9005511c42846d4310"/>
+    <sys_element_mapping action="delete_multiple" query="id=c45e164c4747cd9005511c42846d4310"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>c45e164c4747cd9005511c42846d4310</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 10:26:13</sys_created_on>
+        <sys_id>6d0fd68c4747cd9005511c42846d4335</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 10:28:10</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Add expense line item.4478be6f-4661-4173-bf70-b322fdb13147./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>c45e164c4747cd9005511c42846d4310</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 10:28:10</sys_created_on>
+        <sys_id>127f52cc4747cd9005511c42846d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 10:28:10</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>c45e164c4747cd9005511c42846d4310</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 10:26:13</sys_created_on>
+        <sys_id>a90fd68c4747cd9005511c42846d4335</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 10:28:10</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Add expense line item.4478be6f-4661-4173-bf70-b322fdb13147./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_view</field>
+        <id>c45e164c4747cd9005511c42846d4310</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 10:28:10</sys_created_on>
+        <sys_id>567f52cc4747cd9005511c42846d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 10:28:10</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>c45e164c4747cd9005511c42846d4310</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 10:28:10</sys_created_on>
+        <sys_id>de7f52cc4747cd9005511c42846d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 10:28:10</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>c45e164c4747cd9005511c42846d4310</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 10:28:10</sys_created_on>
+        <sys_id>927f52cc4747cd9005511c42846d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 10:28:10</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{act.act_instance.description}}</value>
+    </sys_element_mapping>
+</record_update>

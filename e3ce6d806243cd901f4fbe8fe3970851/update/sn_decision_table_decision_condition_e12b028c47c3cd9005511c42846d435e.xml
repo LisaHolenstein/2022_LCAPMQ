@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Expense request">3c2b0e4c47c3cd9005511c42846d433c</decision_input>
+        <decision_table display_value="Expense notification decision">85cac28447c3cd9005511c42846d43bd</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field>u_expense_request.state</field>
+        <field_label>Expense request &gt; State</field_label>
+        <field_parent_table>x_avnet_04_reyno_0_expense_request</field_parent_table>
+        <label>Expense request</label>
+        <order>100</order>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 08:59:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e12b028c47c3cd9005511c42846d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_e12b028c47c3cd9005511c42846d435e</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 08:59:23</sys_updated_on>
+        <type display_value="Choice">5217a7c1bf3320001875647fcf0739b7</type>
+    </sn_decision_table_decision_condition>
+</record_update>

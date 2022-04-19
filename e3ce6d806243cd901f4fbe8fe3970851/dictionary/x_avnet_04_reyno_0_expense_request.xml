@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Expense request" max_length="40" name="x_avnet_04_reyno_0_expense_request" text_index="true" type="collection">
+    <element audit="true" extends="task" label="Expense request" max_length="40" name="x_avnet_04_reyno_0_expense_request" sizeclass="1" text_index="true" type="collection">
         <element label="Budget" max_length="32" name="budget" reference="x_avnet_04_reyno_0_budget_definition" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Business justification" max_length="4000" name="business_justification" type="string_full_utf8"/>
         <element label="Expense end date" max_length="40" name="end_date" type="glide_date"/>
