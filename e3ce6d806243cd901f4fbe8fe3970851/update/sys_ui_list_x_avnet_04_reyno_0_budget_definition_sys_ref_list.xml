@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_avnet_04_reyno_0_budget_definition" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_avnet_04_reyno_0_budget_definition" element="NULL" name="x_avnet_04_reyno_0_budget_definition" parent="NULL" relationship="NULL" sys_domain="global" view="0d8b04414712011005511c42846d434a">d3ce2d806043cd90ea2ff91efa1b41ab</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:44</sys_created_on>
+            <sys_id>9fce2d802e43cd901cc8836628ed70aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_avnet_04_reyno_0_budget_definition</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3ce2d806043cd90ea2ff91efa1b41ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_avnet_04_reyno_0_budget_definition</sys_name>
+            <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+            <sys_update_name>sys_ui_list_x_avnet_04_reyno_0_budget_definition_sys_ref_list</sys_update_name>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">0d8b04414712011005511c42846d434a</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

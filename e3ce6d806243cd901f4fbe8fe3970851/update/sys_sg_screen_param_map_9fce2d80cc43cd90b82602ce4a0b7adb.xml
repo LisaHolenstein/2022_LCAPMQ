@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_param_map">
+    <sys_sg_screen_param_map action="INSERT_OR_UPDATE">
+        <item_parameter display_value="encodedQuery">9bce2d807543cd90ebd49d7859a709e9</item_parameter>
+        <screen display_value="Requests">13ce2d802643cd90f072dbeb17706df7</screen>
+        <sys_class_name>sys_sg_screen_param_map</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:58:07</sys_created_on>
+        <sys_id>9fce2d80cc43cd90b82602ce4a0b7adb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9bce2d807543cd90ebd49d7859a709e9</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_sg_screen_param_map_9fce2d80cc43cd90b82602ce4a0b7adb</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:58:07</sys_updated_on>
+        <ui_parameter display_value="encodedQuery">d7ce2d805e43cd90a90adbe8bbdb9ee1</ui_parameter>
+    </sys_sg_screen_param_map>
+</record_update>

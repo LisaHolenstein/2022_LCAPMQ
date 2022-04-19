@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sys_sg_view_config" version="2" view="cost_approval_view_x_avnet_04_reyno_0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="sys_sg_view_config" element="NULL" name="sys_sg_view_config" parent="NULL" relationship="NULL" sys_domain="global" view="5fce2d801c43cd9025daacc24025acad">9bce2d80c543cd9093b7e40ccfbb26ad</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:58:19</sys_created_on>
+            <sys_id>13ce2d80d443cd9042c0923131b0d5ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:58:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="sys_sg_view_config" element="NULL" name="sys_sg_view_config" parent="NULL" relationship="NULL" sys_domain="global" view="5fce2d801c43cd9025daacc24025acad">9bce2d80c543cd9093b7e40ccfbb26ad</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:58:19</sys_created_on>
+            <sys_id>9fce2d801b43cd90dd187ddd6ce5eaad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:58:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_scope</element>
+            <list_id display_value="sys_sg_view_config" element="NULL" name="sys_sg_view_config" parent="NULL" relationship="NULL" sys_domain="global" view="5fce2d801c43cd9025daacc24025acad">9bce2d80c543cd9093b7e40ccfbb26ad</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:58:19</sys_created_on>
+            <sys_id>d3ce2d80a243cd9066bfe2e77e9a8eae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:58:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>template</element>
+            <list_id display_value="sys_sg_view_config" element="NULL" name="sys_sg_view_config" parent="NULL" relationship="NULL" sys_domain="global" view="5fce2d801c43cd9025daacc24025acad">9bce2d80c543cd9093b7e40ccfbb26ad</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:58:19</sys_created_on>
+            <sys_id>dbce2d80c343cd900d677d544aa362ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:58:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_sg_view_config</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:58:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bce2d80c543cd9093b7e40ccfbb26ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_sg_view_config</sys_name>
+            <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+            <sys_update_name>sys_ui_list_sys_sg_view_config_cost_approval_view_x_avnet_04_reyno_0</sys_update_name>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:58:19</sys_updated_on>
+            <sys_user/>
+            <view display_value="cost approval view (x_avnet_04_reyno_0)" name="cost_approval_view_x_avnet_04_reyno_0">5fce2d801c43cd9025daacc24025acad</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

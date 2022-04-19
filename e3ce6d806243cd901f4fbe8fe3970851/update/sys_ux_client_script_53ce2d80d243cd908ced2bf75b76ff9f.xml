@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>8f0ec3492c5f441781f1f44f36351242</includes>
+        <macroponent display_value="Home">d3ce2d804b43cd90cf4d6e48991ee19f</macroponent>
+        <name>applyFilter</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function applyFilter ({ api, event, imports }) {
+	api.setState('parFilters', ({ currentValue }) => {
+		const { payload: { appliedFilters } } = event;
+		return imports['global.mergePARFilters']()(currentValue, appliedFilters);
+	});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:57:11</sys_created_on>
+        <sys_id>53ce2d80d243cd908ced2bf75b76ff9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>applyFilter</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_ux_client_script_53ce2d80d243cd908ced2bf75b76ff9f</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:57:11</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

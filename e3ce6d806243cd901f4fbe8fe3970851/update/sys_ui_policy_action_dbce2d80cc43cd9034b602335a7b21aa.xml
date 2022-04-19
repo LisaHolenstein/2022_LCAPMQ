@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>budget_available</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:58:08</sys_created_on>
+        <sys_id>dbce2d80cc43cd9034b602335a7b21aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>budget_available</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_ui_policy_action_dbce2d80cc43cd9034b602335a7b21aa</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:58:08</sys_updated_on>
+        <table>x_avnet_04_reyno_0_budget_definition</table>
+        <ui_policy display_value="Hide Budgetspent and Available while inserting">5fce2d807643cd90dad51f744212b0aa</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

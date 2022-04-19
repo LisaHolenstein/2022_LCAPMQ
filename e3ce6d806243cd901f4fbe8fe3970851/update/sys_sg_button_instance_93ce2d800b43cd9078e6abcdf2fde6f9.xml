@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Budgets Navigation">d3ce2d806b43cd902e61b240269c6ef7</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon display_value="icon-Edit-2-Solid">93ce2d80fa43cd907740f0dfc03170f5</icon>
+        <label>Budgets</label>
+        <location>quick_action</location>
+        <name>Budgets</name>
+        <order/>
+        <parent>97ce2d807643cd90ad021fe3c66693f9</parent>
+        <parent_table>sys_sg_applet_launcher</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:57:49</sys_created_on>
+        <sys_id>93ce2d800b43cd9078e6abcdf2fde6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Budgets</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_sg_button_instance_93ce2d800b43cd9078e6abcdf2fde6f9</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:57:49</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=93ce2d800b43cd9078e6abcdf2fde6f9"/>
+</record_update>

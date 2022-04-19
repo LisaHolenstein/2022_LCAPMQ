@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description>Assign expense item to budget reviewer</description>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+    //Type appropriate comment here, and begin script below
+  var gr = new GlideRecord("x_avnet_04_reyno_0_expense_request");
+    gr.addQuery("sys_id", input.sys_id);
+    gr.query();
+    if (gr.next()) {
+        gr.setValue("assigned_to",  gs.getUserID());
+        gr.update();
+    }
+})(input);]]></execution_script>
+        <name>Assign to me</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:58:18</sys_created_on>
+        <sys_id>9fce2d806a43cd900cc02af1d786d8f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assign to me</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_9fce2d806a43cd900cc02af1d786d8f6</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:58:18</sys_updated_on>
+        <table>x_avnet_04_reyno_0_expense_request</table>
+        <template>assigned_to=javascript:gs.getUserID()^EQ</template>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=9fce2d806a43cd900cc02af1d786d8f6"/>
+</record_update>

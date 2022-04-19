@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:58:31</sys_created_on>
+        <sys_id>13ce2d804043cd908dbce73f7d8066fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_avnet_04_reyno_0_expense_request.x_avnet_04_reyno_0.Employee</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_security_acl display_value="x_avnet_04_reyno_0_expense_request">5fce2d809c43cd90bdd48e16f73c9ffd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_13ce2d804043cd908dbce73f7d8066fb</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:58:31</sys_updated_on>
+        <sys_user_role display_value="x_avnet_04_reyno_0.Employee" name="x_avnet_04_reyno_0.Employee">97ce6d805543cd909819f046b185a437</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

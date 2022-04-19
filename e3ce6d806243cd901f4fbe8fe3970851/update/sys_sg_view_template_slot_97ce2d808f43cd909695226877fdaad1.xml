@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template_slot">
+    <sys_sg_view_template_slot action="INSERT_OR_UPDATE">
+        <name>text_08</name>
+        <sys_class_name>sys_sg_view_template_slot</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:57:58</sys_created_on>
+        <sys_id>97ce2d808f43cd909695226877fdaad1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_08</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_sg_view_template_slot_97ce2d808f43cd909695226877fdaad1</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:57:58</sys_updated_on>
+        <type>Text</type>
+        <view_template display_value="Cost Approval">57ce2d809243cd905a3d49ac4cfab2d3</view_template>
+    </sys_sg_view_template_slot>
+</record_update>

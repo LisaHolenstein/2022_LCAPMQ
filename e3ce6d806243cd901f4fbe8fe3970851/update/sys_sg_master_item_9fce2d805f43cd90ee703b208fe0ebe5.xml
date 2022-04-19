@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_avnet_04_reyno_0_expense_request</datasource_table>
+        <datasource_table_condition table="x_avnet_04_reyno_0_expense_request">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=-6<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item display_value="Pending final review" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="-6"/>
+        </datasource_table_condition>
+        <embedded_screen display_value="My work - Budget Reviewer Record Screen">97ce2d805a43cd90114d1ed543b663f1</embedded_screen>
+        <item_view/>
+        <name>My work - Budget Reviewer List Item Config</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:57:29</sys_created_on>
+        <sys_id>9fce2d805f43cd90ee703b208fe0ebe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My work - Budget Reviewer List Item Config</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_sg_master_item_9fce2d805f43cd90ee703b208fe0ebe5</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:57:29</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="My work - Budget Reviewer Card">1bce2d80b143cd90da01a78021b036e2</view_config>
+    </sys_sg_master_item>
+</record_update>

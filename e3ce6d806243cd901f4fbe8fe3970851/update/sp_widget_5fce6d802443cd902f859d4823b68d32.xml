@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function incidentTicketActions($scope, $http, spUtil, $timeout, spModal, i18n, $window, $uibModal, spAriaUtil) {
+   var c = this;
+    c.resolvedIncidentMsg = "${Canceled your expense}";
+	
+	$scope.cancelExpenseRequest = function() {
+        $scope.data.action = 'cancelExpenseRequest';
+        $scope.server.update().then(function(response){
+				if (response.isIncidentResolved)
+						spAriaUtil.sendLiveMessage(c.resolvedIncidentMsg);
+				});
+	/*	$scope.$emit('focusOnActions', {"isFocusRequired": true});*/
+    };
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.arrow {
+  position: absolute;
+  margin-left: 50px;
+  z-index: 150;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid #FFFFFF;
+}
+
+.question-tab{
+	font-size:1.4rem;
+}
+
+.dropdown-menu li {
+  cursor: pointer;
+}
+
+.action-btn {
+  width: 100%;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>Cancel the expense request raised by the user</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>x_avnet_04_reyno_0expense_request_ticket</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  scope.setFocusOnActionButtons = function() {
+		if (scope.widget.isFocusRequired) {
+			var elm = element.find('#actions-button')[0];
+			elm.focus();
+		}
+	};
+}]]></link>
+        <name>Expense Request Ticket Actions</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	var expRequestGr = new GlideRecord('x_avnet_04_reyno_0_expense_request');
+	var expRequestSysId = options.sys_id;
+
+	if (!expRequestSysId && $sp.getParameter('table') == 'x_avnet_04_reyno_0_expense_request')
+		expRequestSysId = $sp.getParameter('sys_id');
+
+	if (!expRequestSysId && $sp.getParameter('table') == 'universal_request') {
+		var urGr = new GlideRecord('universal_request');
+		urGr.get($sp.getParameter('sys_id'));
+		expRequestSysId = urGr.primary_task + "";
+	}
+
+
+
+	if (input && input.action == 'cancelExpenseRequest' && expRequestGr.get(expRequestSysId)) { 
+		expRequestGr.state = 10;
+		data.isIncidentResolved = expRequestGr.update();
+		gs.addInfoMessage(gs.getMessage("Request has been canceled"));
+	}
+	if (expRequestGr.get(expRequestSysId)) {
+
+		data.showActions = expRequestGr.state == "-5" && expRequestGr.opened_by == gs.getUserID() ? true: false;
+	}
+
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:57:54</sys_created_on>
+        <sys_id>5fce6d802443cd902f859d4823b68d32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expense Request Ticket Actions</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sp_widget_5fce6d802443cd902f859d4823b68d32</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:57:54</sys_updated_on>
+        <template><![CDATA[<div>
+    
+   <button type="button" id="actions-button" class="btn btn-default action-btn" ng-if="data.showActions" style="width : 100%" aria-haspopup="true" ng-click= "cancelExpenseRequest()" 
+           >
+       ${Cancel}
+           
+   </button>
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

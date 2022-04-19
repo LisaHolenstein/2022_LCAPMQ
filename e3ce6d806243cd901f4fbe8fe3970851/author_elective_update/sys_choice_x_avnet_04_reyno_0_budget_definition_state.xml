@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_avnet_04_reyno_0_budget_definition" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_avnet_04_reyno_0_budget_definition</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 10:06:58</sys_created_on>
+            <sys_id>97ce2d80d343cd906f4be7f1fbac2098</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+            <sys_update_name>sys_choice_x_avnet_04_reyno_0_budget_definition_state</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2022-02-07 06:47:24</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Active</label>
+            <language>en</language>
+            <name>x_avnet_04_reyno_0_budget_definition</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 10:06:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93ce2d80e343cd90a26104808d3b8d98</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2022-02-07 06:49:09</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Upcoming</label>
+            <language>en</language>
+            <name>x_avnet_04_reyno_0_budget_definition</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 10:07:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9fce2d800643cd90d6e7f947661ec197</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2022-02-07 06:49:09</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_avnet_04_reyno_0_budget_definition</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-10-07 10:08:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fce2d80ac43cd90f5132f04a8dd7b97</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2022-02-07 06:49:09</sys_updated_on>
+            <value>30</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

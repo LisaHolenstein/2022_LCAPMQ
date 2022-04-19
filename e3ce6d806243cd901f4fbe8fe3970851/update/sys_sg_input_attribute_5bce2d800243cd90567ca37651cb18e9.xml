@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input_attribute">
+    <sys_sg_input_attribute action="INSERT_OR_UPDATE">
+        <input display_value="Assigned To">5fce2d80ca43cd9082b4c797f992e3ea</input>
+        <name>EnableSearch</name>
+        <sys_class_name>sys_sg_input_attribute</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:57:02</sys_created_on>
+        <sys_id>5bce2d800243cd90567ca37651cb18e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EnableSearch</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_sg_input_attribute_5bce2d800243cd90567ca37651cb18e9</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:57:02</sys_updated_on>
+        <value>true</value>
+    </sys_sg_input_attribute>
+</record_update>

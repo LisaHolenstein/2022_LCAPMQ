@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>start_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages>Start Date ( {0} ) overlaps with another budget. All budget date ranges must be distinct.</messages>
+        <name>Budget Start Date Validation</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var endDate = g_form.getValue('end_date');
+    var ajax = new GlideAjax('x_avnet_04_reyno_0.CostApprovalUtils');
+    ajax.addParam('sysparm_name', 'startDateBudget');
+    ajax.addParam('sysparm_start', newValue);
+    ajax.addParam('sysparm_end', endDate);
+    ajax.addParam("sysparm_sysId", g_form.getUniqueValue());
+    ajax.getXML(dateValidation);
+    var start_date = newValue.split(' ');
+    g_form.clearValue('end_date');
+
+    function dateValidation(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        answer = JSON.parse(answer);
+        if (answer.isEndpast == true) {
+			var msg2 = getMessage("Start Date ( {0} ) may not be same or after End Date.", start_date[0]);
+            g_form.clearValue('start_date');
+            g_form.showFieldMsg('start_date', msg2 , 'error');
+        } else if (answer.checkOtherBudgets) {
+            var msg4 = getMessage("Start Date ( {0} ) overlaps with another budget. All budget date ranges must be distinct.", start_date[0]);
+            g_form.clearValue('start_date');
+            g_form.showFieldMsg('start_date', msg4, 'error');
+        } else {
+            g_form.hideFieldMsg('start_date');
+        }
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:58:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbce2d807c43cd90b11cb5d9c69646fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Budget Start Date Validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_script_client_dbce2d807c43cd90b11cb5d9c69646fe</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:58:24</sys_updated_on>
+        <table>x_avnet_04_reyno_0_budget_definition</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

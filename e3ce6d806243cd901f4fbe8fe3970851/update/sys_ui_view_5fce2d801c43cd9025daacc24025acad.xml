@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>cost_approval_view_x_avnet_04_reyno_0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:18</sys_created_on>
+        <sys_id>5fce2d801c43cd9025daacc24025acad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cost approval view (x_avnet_04_reyno_0)</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_ui_view_5fce2d801c43cd9025daacc24025acad</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:18</sys_updated_on>
+        <title>cost approval view (x_avnet_04_reyno_0)</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

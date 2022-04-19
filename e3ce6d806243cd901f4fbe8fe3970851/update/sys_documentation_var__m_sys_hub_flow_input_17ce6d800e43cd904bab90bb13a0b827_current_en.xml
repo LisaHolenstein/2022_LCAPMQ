@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="current" label="Record" language="en" table="var__m_sys_hub_flow_input_17ce6d800e43cd904bab90bb13a0b827">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>current</element>
+            <help/>
+            <hint/>
+            <label>Record</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_17ce6d800e43cd904bab90bb13a0b827</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:14</sys_created_on>
+            <sys_id>13ce6d80d843cd90765723c87a555723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Record</sys_name>
+            <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_17ce6d800e43cd904bab90bb13a0b827_current_en</sys_update_name>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

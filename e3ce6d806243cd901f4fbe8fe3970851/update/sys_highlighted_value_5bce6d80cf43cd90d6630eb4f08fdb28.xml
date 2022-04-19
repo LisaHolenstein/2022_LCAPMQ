@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value">
+    <sys_highlighted_value action="INSERT_OR_UPDATE">
+        <field>exp_state</field>
+        <sys_class_name>sys_highlighted_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:58:08</sys_created_on>
+        <sys_id>5bce6d80cf43cd90d6630eb4f08fdb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>exp_state</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_highlighted_value_5bce6d80cf43cd90d6630eb4f08fdb28</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:58:08</sys_updated_on>
+        <table>x_avnet_04_reyno_0_expense_request_sla</table>
+        <workspace/>
+    </sys_highlighted_value>
+</record_update>

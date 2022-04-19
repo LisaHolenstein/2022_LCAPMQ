@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg_content">
+    <sys_push_notif_msg_content action="INSERT_OR_UPDATE">
+        <name>Expense request content (Actionable)</name>
+        <push_app display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</push_app>
+        <script><![CDATA[(function buildJSON( /*GlideRecord*/ current, /*String*/ message, /*Object*/ attributes) {
+    var gr = new GlideRecord('task_sla');
+    gr.get('task', current.sys_id);
+    var days = Math.floor(new GlideDateTime(gr.time_left).getNumericValue() / (1000 * 3600 * 24));
+
+    var layoutFields = {
+        "Identifier": "number",
+        "Description": "short_description",
+        "Status": "state"
+    };
+    var json = '';
+    if (current.state == -6) {
+        json = new global.ActionablePushPayloadBuilder(current, "1fce2d804643cd90ea4c470f580d55e1", layoutFields).buildJSON();
+    } else {
+        json = new global.ActionablePushPayloadBuilder(current, "93ce2d804443cd90c9c7745e2e8012e2", layoutFields).buildJSON();
+    }
+    json.Layout.Status = "Due in " + days + " days";
+    return json;
+
+})(current, message, attributes);]]></script>
+        <sys_class_name>sys_push_notif_msg_content</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:58:20</sys_created_on>
+        <sys_id>5bce6d806743cd905eb7a41e7de67902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expense request content (Actionable)</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_push_notif_msg_content_5bce6d806743cd905eb7a41e7de67902</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:58:20</sys_updated_on>
+    </sys_push_notif_msg_content>
+</record_update>

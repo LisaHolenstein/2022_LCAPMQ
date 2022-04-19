@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="d3ce2d800543cd90bcef92e5534a78a5" sys_domain="global" table="x_avnet_04_reyno_0_budget_definition" version="3" view="cost_approval_x_avnet_04_reyno_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:00</sys_created_on>
+            <sys_id>17ce2d805043cd90192a55c9e5e1a9a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_avnet_04_reyno_0_budget_definition" sys_domain="global" view="93ce2d80d443cd9070875fd5c1a214af">d3ce2d800543cd90bcef92e5534a78a5</sys_ui_section>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_budget</element>
+            <position>1</position>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:00</sys_created_on>
+            <sys_id>13ce2d800343cd90c16913de59c355a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_avnet_04_reyno_0_budget_definition" sys_domain="global" view="93ce2d80d443cd9070875fd5c1a214af">d3ce2d800543cd90bcef92e5534a78a5</sys_ui_section>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_available</element>
+            <position>2</position>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:00</sys_created_on>
+            <sys_id>5bce2d802643cd90c93e6cc5345098a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_avnet_04_reyno_0_budget_definition" sys_domain="global" view="93ce2d80d443cd9070875fd5c1a214af">d3ce2d800543cd90bcef92e5534a78a5</sys_ui_section>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_spent</element>
+            <position>3</position>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:00</sys_created_on>
+            <sys_id>dbce2d801b43cd9064462d3c1abb70a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_avnet_04_reyno_0_budget_definition" sys_domain="global" view="93ce2d80d443cd9070875fd5c1a214af">d3ce2d800543cd90bcef92e5534a78a5</sys_ui_section>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:00</sys_created_on>
+            <sys_id>57ce2d803043cd90348be54a023e1ba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_avnet_04_reyno_0_budget_definition" sys_domain="global" view="93ce2d80d443cd9070875fd5c1a214af">d3ce2d800543cd90bcef92e5534a78a5</sys_ui_section>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:00</sys_created_on>
+            <sys_id>53ce2d807043cd909567124fd779eba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_avnet_04_reyno_0_budget_definition" sys_domain="global" view="93ce2d80d443cd9070875fd5c1a214af">d3ce2d800543cd90bcef92e5534a78a5</sys_ui_section>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>6</position>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:00</sys_created_on>
+            <sys_id>d7ce2d801843cd907418f4d38f2834a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_avnet_04_reyno_0_budget_definition" sys_domain="global" view="93ce2d80d443cd9070875fd5c1a214af">d3ce2d800543cd90bcef92e5534a78a5</sys_ui_section>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>7</position>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:00</sys_created_on>
+            <sys_id>dbce2d809c43cd907bac8544678790a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_avnet_04_reyno_0_budget_definition" sys_domain="global" view="93ce2d80d443cd9070875fd5c1a214af">d3ce2d800543cd90bcef92e5534a78a5</sys_ui_section>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:00</sys_created_on>
+            <sys_id>d7ce2d80b743cd900d2bed2f3b694ba4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_avnet_04_reyno_0_budget_definition" sys_domain="global" view="93ce2d80d443cd9070875fd5c1a214af">d3ce2d800543cd90bcef92e5534a78a5</sys_ui_section>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:00</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>9</position>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:00</sys_created_on>
+            <sys_id>dfce2d808443cd908ab99fcdefccc8a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_avnet_04_reyno_0_budget_definition" sys_domain="global" view="93ce2d80d443cd9070875fd5c1a214af">d3ce2d800543cd90bcef92e5534a78a5</sys_ui_section>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>10</position>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:00</sys_created_on>
+            <sys_id>5bce2d804343cd90d26c5820160f56a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="">57ce2d802543cd9058b61fa789ad64a9</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_avnet_04_reyno_0_budget_definition" sys_domain="global" view="93ce2d80d443cd9070875fd5c1a214af">d3ce2d800543cd90bcef92e5534a78a5</sys_ui_section>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:00</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_avnet_04_reyno_0_budget_definition</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:57:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3ce2d800543cd90bcef92e5534a78a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_avnet_04_reyno_0_budget_definition</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+            <sys_update_name>sys_ui_section_d3ce2d800543cd90bcef92e5534a78a5</sys_update_name>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:57:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Cost Approval (x_avnet_04_reyno_0)" name="cost_approval_x_avnet_04_reyno_0">93ce2d80d443cd9070875fd5c1a214af</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

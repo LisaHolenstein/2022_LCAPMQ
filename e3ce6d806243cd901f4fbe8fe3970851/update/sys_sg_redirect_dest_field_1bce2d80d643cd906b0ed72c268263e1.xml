@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_redirect_dest_field">
+    <sys_sg_redirect_dest_field action="INSERT_OR_UPDATE">
+        <button display_value="Single Score Report Drill down">97ce2d80d743cd90ab48f011ce491bf7</button>
+        <button_table/>
+        <constant_value/>
+        <destination_ui_parameter display_value="encodedQuery">97ce2d802043cd90d38518f492480fe1</destination_ui_parameter>
+        <source_field/>
+        <source_ui_parameter/>
+        <sys_class_name>sys_sg_redirect_dest_field</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:57:07</sys_created_on>
+        <sys_id>1bce2d80d643cd906b0ed72c268263e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>97ce2d802043cd90d38518f492480fe1</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_sg_redirect_dest_field_1bce2d80d643cd906b0ed72c268263e1</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:57:07</sys_updated_on>
+        <type>field</type>
+    </sys_sg_redirect_dest_field>
+</record_update>

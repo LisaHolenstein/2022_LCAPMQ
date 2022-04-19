@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_avnet_04_reyno_0_expense_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_avnet_04_reyno_0_expense_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-09-20 02:43:40</sys_created_on>
+            <sys_id>17ce2d80a043cd903a06d121579e2598</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+            <sys_update_name>sys_choice_x_avnet_04_reyno_0_expense_request_state</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2021-09-20 02:43:40</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending</label>
+            <language>en</language>
+            <name>x_avnet_04_reyno_0_expense_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-09-20 02:43:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57ce2d80a443cd90215ea3ce0d90b198</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2022-02-07 07:21:40</sys_updated_on>
+            <value>-5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Work in Progress</label>
+            <language>en</language>
+            <name>x_avnet_04_reyno_0_expense_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-09-20 02:43:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfce2d80a943cd9086e75923066de197</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2022-02-07 07:21:40</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_avnet_04_reyno_0_expense_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-09-20 02:43:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13ce2d80a043cd904a02afdd7c24aa98</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2022-02-07 07:21:40</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_avnet_04_reyno_0_expense_request</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-09-20 02:43:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3ce2d80d343cd90d9ced8fe2c018a98</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2022-02-07 07:21:40</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canceled</label>
+            <language>en</language>
+            <name>x_avnet_04_reyno_0_expense_request</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-09-20 02:44:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53ce2d808b43cd90620b5ce7cc73ce98</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2022-02-07 07:21:40</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending final review</label>
+            <language>en</language>
+            <name>x_avnet_04_reyno_0_expense_request</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2021-10-07 09:55:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7ce2d80d843cd90b062a5944e3bf498</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2022-02-07 07:21:40</sys_updated_on>
+            <value>-6</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="INSERT_OR_UPDATE">
+        <operation display_value="Set UI Style">1fc6ba105b431010da168d8fa881c7bb</operation>
+        <order/>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:58:20</sys_created_on>
+        <sys_id>d7ce2d801e43cd902094c01885c6aed4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_d7ce2d801e43cd902094c01885c6aed4</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:58:20</sys_updated_on>
+        <target>view_group_04</target>
+        <ui_rule display_value="All requests for Manager - Closed incomplete - Record screen">9fce2d809843cd90c004f430dbd38bd8</ui_rule>
+        <value>{&#13;
+"BackgroundColor": "#F1CDCD",&#13;
+"FontColor": "#161B1C"&#13;
+}</value>
+    </sys_sg_ui_rule_action>
+</record_update>

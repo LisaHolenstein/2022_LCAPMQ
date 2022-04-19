@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Expense Request activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_avnet_04_reyno_0_expense_request_activity.fields</name>
+        <read_roles/>
+        <suffix>x_snc_cost_appro_0</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:58</sys_created_on>
+        <sys_id>dfce6d802843cd90781efe95fbc29c02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_avnet_04_reyno_0_expense_request_activity.fields</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_properties_dfce6d802843cd90781efe95fbc29c02</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:58</sys_updated_on>
+        <type>string</type>
+        <value>assigned_to,state,priority,opened_by,work_notes,comments,*Attachments*,business_justification,total_cost,short_description,budget,assignment_group,comments_and_work_notes</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=dfce6d802843cd90781efe95fbc29c02"/>
+</record_update>

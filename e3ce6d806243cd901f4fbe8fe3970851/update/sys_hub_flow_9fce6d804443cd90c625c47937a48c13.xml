@@ -1,0 +1,2741 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patchrtp-01-05-2022_01-05-2022_1908.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>x_avnet_04_reyno_0.budget_calculations</internal_name>
+        <label_cache>[{"name":"f4a34b6f-9db1-4571-9a76-77bd59f5da23.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4a34b6f-9db1-4571-9a76-77bd59f5da23.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4a34b6f-9db1-4571-9a76-77bd59f5da23.table_name","label":"2 - Update Record➛FX Currency Table","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4a34b6f-9db1-4571-9a76-77bd59f5da23.record","label":"2 - Update Record➛FX Currency Record","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.budget_type","label":"Input➛Budget Type","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Add","value":"Add","order":1.0},{"label":"Sub","value":"Sub","order":2.0}],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"db6f04c0-d167-46b7-9816-ad2d05610258"}},{"name":"1a53066c-ba7d-4d89-8f32-27cb82bbdb33.record","label":"3 - Update Record➛FX Currency Record","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1a53066c-ba7d-4d89-8f32-27cb82bbdb33.table_name","label":"3 - Update Record➛FX Currency Table","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1a53066c-ba7d-4d89-8f32-27cb82bbdb33.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1a53066c-ba7d-4d89-8f32-27cb82bbdb33.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d8de9e73-dba8-4d71-b288-bb4eee179c66.record","label":"6 - Update Record➛FX Currency Record","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d8de9e73-dba8-4d71-b288-bb4eee179c66.table_name","label":"6 - Update Record➛FX Currency Table","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d8de9e73-dba8-4d71-b288-bb4eee179c66.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d8de9e73-dba8-4d71-b288-bb4eee179c66.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"65f790ab-6e08-4f45-bd83-9452e2bdf27a.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"65f790ab-6e08-4f45-bd83-9452e2bdf27a.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"65f790ab-6e08-4f45-bd83-9452e2bdf27a.__action_status__","label":"5➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"65f790ab-6e08-4f45-bd83-9452e2bdf27a.__dont_treat_as_error__","label":"5➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"3e8da934-dc36-4f2c-86fc-99e710cb4f09.record","label":"7 - Update Record➛FX Currency Record","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e8da934-dc36-4f2c-86fc-99e710cb4f09.table_name","label":"7 - Update Record➛FX Currency Table","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e8da934-dc36-4f2c-86fc-99e710cb4f09.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e8da934-dc36-4f2c-86fc-99e710cb4f09.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>d3ce6d805d43cd90036803bd4de1f125</master_snapshot>
+        <name>Budget Calculations</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>1fce6d809443cd90d3c60f121b605013</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9fce6d804443cd90c625c47937a48c13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Budget Calculations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_hub_flow_9fce6d804443cd90c625c47937a48c13</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:05</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9fce6d804443cd90c625c47937a48c13"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9fce6d804443cd90c625c47937a48c13"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9fce6d804443cd90c625c47937a48c13"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9fce6d804443cd90c625c47937a48c13"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9fce6d804443cd90c625c47937a48c13^sys_idNOT IN5fce6d80a943cd901074410bfbe7fc13"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9fce6d804443cd90c625c47937a48c13</id>
+        <name>Budget Calculations</name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:06</sys_created_on>
+        <sys_id>5fce6d80a943cd901074410bfbe7fc13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:06</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5fce6d80a943cd901074410bfbe7fc13"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9fce6d804443cd90c625c47937a48c13^sys_idNOT IN1bce6d805043cd90b67ea517507e8613,5bce6d804243cd9053a014e4cca80313,9bce6d808c43cd9043313428a6703313"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=db6f04c0-d167-46b7-9816-ad2d05610258</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>budget_type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Budget Type</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Budget Calculations">9fce6d804443cd90c625c47937a48c13</model>
+        <model_id>9fce6d804443cd90c625c47937a48c13</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:06</sys_created_on>
+        <sys_id>1bce6d805043cd90b67ea517507e8613</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=9b3c37c8-21f6-4d33-bd65-32326a04fbd8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_avnet_04_reyno_0_budget_definition</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>budget</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Budget</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Budget Calculations">9fce6d804443cd90c625c47937a48c13</model>
+        <model_id>9fce6d804443cd90c625c47937a48c13</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_avnet_04_reyno_0_budget_definition">x_avnet_04_reyno_0_budget_definition</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:06</sys_created_on>
+        <sys_id>5bce6d804243cd9053a014e4cca80313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=59e35bd3-0f74-4ef4-aeb1-ff66fb80c445</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_avnet_04_reyno_0_expense_request</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>expense_request</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Expense Request</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Budget Calculations">9fce6d804443cd90c625c47937a48c13</model>
+        <model_id>9fce6d804443cd90c625c47937a48c13</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_avnet_04_reyno_0_expense_request">x_avnet_04_reyno_0_expense_request</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>9bce6d808c43cd9043313428a6703313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=9fce6d804443cd90c625c47937a48c13"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9fce6d804443cd90c625c47937a48c13"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9fce6d804443cd90c625c47937a48c13^sys_idNOT IN17ce6d806143cd904488d5ae5cec5813,1fce6d80ca43cd90a56fc83fbad0fc12,53ce6d803743cd90779382a416bff613,57ce6d800143cd90fbe6fb2778bce713"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Budget Calculations">9fce6d804443cd90c625c47937a48c13</flow>
+        <order>3</order>
+        <parent_ui_id>b512b1b9-67c6-4f24-90ad-65965e2fe461</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>17ce6d806143cd904488d5ae5cec5813</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <ui_id>1a53066c-ba7d-4d89-8f32-27cb82bbdb33</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=17ce6d806143cd904488d5ae5cec5813"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17ce6d806143cd904488d5ae5cec5813</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>13ce6d805f43cd901a0b19e134146113</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <value>fx_currency2_instance</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17ce6d806143cd904488d5ae5cec5813</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>5fce6d809743cd90533e415db903eb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <value>amount=fd-scripted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1^id=17ce6d806143cd904488d5ae5cec5813"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=17ce6d806143cd904488d5ae5cec5813^sys_idNOT IN93ce6d805c43cd90c559fa0811fcbd13,9fce6d809643cd90c6a945736310a812"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>record</input_name>
+        <instance>17ce6d806143cd904488d5ae5cec5813</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn fd_data.subflow_inputs.budget.budget_spent;"}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>93ce6d805c43cd90c559fa0811fcbd13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>17ce6d806143cd904488d5ae5cec5813</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"amount":{"scriptActive":true,"script":"var res\u003dfd_data.subflow_inputs.budget.budget_spent.reference_amount + fd_data.subflow_inputs.expense_request.total_cost.reference_amount;\nvar ref_cur\u003dfd_data.subflow_inputs.budget.budget_spent.reference_currency;\nvar user_cur\u003dfd_data.subflow_inputs.budget.budget_spent.currency;\nvar conv \u003d new sn_currency.GlideCurrencyConverter(ref_cur, user_cur);\nconv.setAmount(res);\nvar result \u003d conv.convert();\nvar start \u003d result.toString().indexOf(\u0027fAmount\u0027);//get the position of fAmount\nvar end \u003d result.toString().indexOf(\u0027,\u0027, start);//get the position of the comma following fAmount\n//return result.toString().substring(start + 8, end);//get the actual fAmount value\nvar num \u003d result.toString().substring(start + 8, end);\nnum  \u003d parseFloat(num);\nreturn num.toFixed(2);","savedValue":""}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>9fce6d809643cd90c6a945736310a812</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=17ce6d806143cd904488d5ae5cec5813"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Budget Calculations">9fce6d804443cd90c625c47937a48c13</flow>
+        <order>7</order>
+        <parent_ui_id>fee7e493-5ff7-41c0-a946-8640badc2c69</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>1fce6d80ca43cd90a56fc83fbad0fc12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <ui_id>3e8da934-dc36-4f2c-86fc-99e710cb4f09</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1fce6d80ca43cd90a56fc83fbad0fc12"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1fce6d80ca43cd90a56fc83fbad0fc12</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>9bce6d805143cd9044bfd016a940db12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <value>fx_currency2_instance</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1fce6d80ca43cd90a56fc83fbad0fc12</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>d3ce6d801d43cd90a8a7892cc7a23a12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <value>amount=fd-scripted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1^id=1fce6d80ca43cd90a56fc83fbad0fc12"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1fce6d80ca43cd90a56fc83fbad0fc12^sys_idNOT INd7ce6d805743cd90c419d01301589012,dbce6d801543cd901b8e2047d2fc8112"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>record</input_name>
+        <instance>1fce6d80ca43cd90a56fc83fbad0fc12</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn fd_data.subflow_inputs.budget.budget_spent;"}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>d7ce6d805743cd90c419d01301589012</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>1fce6d80ca43cd90a56fc83fbad0fc12</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"amount":{"scriptActive":true,"script":"var res\u003dfd_data.subflow_inputs.budget.budget_spent.reference_amount - fd_data.subflow_inputs.expense_request.total_cost.reference_amount;\nvar ref_cur\u003dfd_data.subflow_inputs.budget.budget_spent.reference_currency;\nvar user_cur\u003dfd_data.subflow_inputs.budget.budget_spent.currency;\nvar conv \u003d new sn_currency.GlideCurrencyConverter(ref_cur, user_cur);\nconv.setAmount(res);\nvar result \u003d conv.convert();\nvar start \u003d result.toString().indexOf(\u0027fAmount\u0027);//get the position of fAmount\nvar end \u003d result.toString().indexOf(\u0027,\u0027, start);//get the position of the comma following fAmount\n//return result.toString().substring(start + 8, end);//get the actual fAmount value\nvar num \u003d result.toString().substring(start + 8, end);\nnum  \u003d parseFloat(num);\nreturn num.toFixed(2);","savedValue":""}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>dbce6d801543cd901b8e2047d2fc8112</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1fce6d80ca43cd90a56fc83fbad0fc12"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Budget Calculations">9fce6d804443cd90c625c47937a48c13</flow>
+        <order>2</order>
+        <parent_ui_id>b512b1b9-67c6-4f24-90ad-65965e2fe461</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>53ce6d803743cd90779382a416bff613</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <ui_id>f4a34b6f-9db1-4571-9a76-77bd59f5da23</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=53ce6d803743cd90779382a416bff613"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>53ce6d803743cd90779382a416bff613</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>5bce6d803b43cd900d89918e046ff112</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <value>fx_currency2_instance</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>53ce6d803743cd90779382a416bff613</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>93ce6d807743cd90ba39b10fb69e5912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <value>amount=fd-scripted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1^id=53ce6d803743cd90779382a416bff613"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=53ce6d803743cd90779382a416bff613^sys_idNOT IN1bce6d800143cd9064328e2a537da612,97ce6d801f43cd90cbbd27120a0ae212"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>record</input_name>
+        <instance>53ce6d803743cd90779382a416bff613</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn fd_data.subflow_inputs.budget.budget_available;"}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>1bce6d800143cd9064328e2a537da612</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>53ce6d803743cd90779382a416bff613</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"amount":{"scriptActive":true,"script":"var res\u003dfd_data.subflow_inputs.budget.budget_available.reference_amount - fd_data.subflow_inputs.expense_request.total_cost.reference_amount;\nvar ref_cur\u003dfd_data.subflow_inputs.budget.budget_available.reference_currency;\nvar user_cur\u003dfd_data.subflow_inputs.budget.budget_available.currency;\nvar conv \u003d new sn_currency.GlideCurrencyConverter(ref_cur, user_cur);\nconv.setAmount(res);\nvar result \u003d conv.convert();\nvar start \u003d result.toString().indexOf(\u0027fAmount\u0027);//get the position of fAmount\nvar end \u003d result.toString().indexOf(\u0027,\u0027, start);//get the position of the comma following fAmount\n//return result.toString().substring(start + 8, end);//get the actual fAmount value\nvar num \u003d result.toString().substring(start + 8, end);\nnum  \u003d parseFloat(num);\nreturn num.toFixed(2);","savedValue":""}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>97ce6d801f43cd90cbbd27120a0ae212</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=53ce6d803743cd90779382a416bff613"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Budget Calculations">9fce6d804443cd90c625c47937a48c13</flow>
+        <order>6</order>
+        <parent_ui_id>fee7e493-5ff7-41c0-a946-8640badc2c69</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>57ce6d800143cd90fbe6fb2778bce713</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <ui_id>d8de9e73-dba8-4d71-b288-bb4eee179c66</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=57ce6d800143cd90fbe6fb2778bce713"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57ce6d800143cd90fbe6fb2778bce713</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>97ce6d80f243cd90c3cf78d60d79cf13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <value>fx_currency2_instance</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57ce6d800143cd90fbe6fb2778bce713</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>dfce6d806843cd900e50cd8bf5e08112</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <value>amount=fd-scripted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1^id=57ce6d800143cd90fbe6fb2778bce713"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=57ce6d800143cd90fbe6fb2778bce713^sys_idNOT INd3ce6d80c643cd9000225010dca30513,d7ce6d800843cd90a3a24e12fb267013"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>57ce6d800143cd90fbe6fb2778bce713</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"amount":{"scriptActive":true,"script":"var res\u003dfd_data.subflow_inputs.budget.budget_available.reference_amount + fd_data.subflow_inputs.expense_request.total_cost.reference_amount;\nvar ref_cur\u003dfd_data.subflow_inputs.budget.budget_available.reference_currency;\nvar user_cur\u003dfd_data.subflow_inputs.budget.budget_available.currency;\nvar conv \u003d new sn_currency.GlideCurrencyConverter(ref_cur, user_cur);\nconv.setAmount(res);\nvar result \u003d conv.convert();\nvar start \u003d result.toString().indexOf(\u0027fAmount\u0027);//get the position of fAmount\nvar end \u003d result.toString().indexOf(\u0027,\u0027, start);//get the position of the comma following fAmount\n//return result.toString().substring(start + 8, end);//get the actual fAmount value\nvar num \u003d result.toString().substring(start + 8, end);\nnum  \u003d parseFloat(num);\nreturn num.toFixed(2);\n","savedValue":""}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>d3ce6d80c643cd9000225010dca30513</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>record</input_name>
+        <instance>57ce6d800143cd90fbe6fb2778bce713</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn fd_data.subflow_inputs.budget.budget_available;"}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>d7ce6d800843cd90a3a24e12fb267013</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=57ce6d800143cd90fbe6fb2778bce713"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9fce6d804443cd90c625c47937a48c13"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9fce6d804443cd90c625c47937a48c13^sys_idNOT IN17ce6d804b43cd90f353c3abd5acf912,53ce6d80a343cd9000f53dc1f9750012,5fce6d808b43cd9054d48bb0bf76ee11,9bce6d801b43cd9015deb9a33d2f7211"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">57ce6d809f43cd9012b31db28123e412</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Budget Calculations">9fce6d804443cd90c625c47937a48c13</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b512b1b9-67c6-4f24-90ad-65965e2fe461</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>17ce6d804b43cd90f353c3abd5acf912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <ui_id>c948ca2f-04fc-47db-95a9-121dac6e0d8c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=17ce6d804b43cd90f353c3abd5acf912"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=17ce6d804b43cd90f353c3abd5acf912"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=17ce6d804b43cd90f353c3abd5acf912"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">13ce6d80d143cd90b1e512b1a1ff7212</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Budget Calculations">9fce6d804443cd90c625c47937a48c13</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>53ce6d80a343cd9000f53dc1f9750012</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <ui_id>b512b1b9-67c6-4f24-90ad-65965e2fe461</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=53ce6d80a343cd9000f53dc1f9750012"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>53ce6d80a343cd9000f53dc1f9750012</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>97ce6d80c843cd908b241a942da81c11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <value>Added expense total cost to budget</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=53ce6d80a343cd9000f53dc1f9750012"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>53ce6d80a343cd9000f53dc1f9750012</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>d7ce6d80af43cd90c721c181d193e811</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.budget_type}}=Add</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=53ce6d80a343cd9000f53dc1f9750012"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=53ce6d80a343cd9000f53dc1f9750012"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9fce6d80b643cd90aeea1a891980ca11</block>
+        <comment/>
+        <connected_to>b512b1b9-67c6-4f24-90ad-65965e2fe461</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Budget Calculations">9fce6d804443cd90c625c47937a48c13</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>5fce6d808b43cd9054d48bb0bf76ee11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <ui_id>fee7e493-5ff7-41c0-a946-8640badc2c69</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5fce6d808b43cd9054d48bb0bf76ee11"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>5fce6d808b43cd9054d48bb0bf76ee11</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>dfce6d80b843cd90043d83fc4f59b911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <value>Remove total expense cost from budget</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5fce6d808b43cd9054d48bb0bf76ee11"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>5fce6d808b43cd9054d48bb0bf76ee11</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>1fce6d80a143cd903b30e2bff080ab11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{subflow.budget_type}}=Sub</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5fce6d808b43cd9054d48bb0bf76ee11"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5fce6d808b43cd9054d48bb0bf76ee11"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dbce6d80e043cd9094e7781de70fca11</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Budget Calculations">9fce6d804443cd90c625c47937a48c13</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fee7e493-5ff7-41c0-a946-8640badc2c69</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:07</sys_created_on>
+        <sys_id>9bce6d801b43cd9015deb9a33d2f7211</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:07</sys_updated_on>
+        <ui_id>6b7653db-7fa2-4937-aab8-672fd8aed811</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9bce6d801b43cd9015deb9a33d2f7211"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9bce6d801b43cd9015deb9a33d2f7211"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9bce6d801b43cd9015deb9a33d2f7211"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9fce6d804443cd90c625c47937a48c13"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9fce6d804443cd90c625c47937a48c13"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13^sys_idNOT IN13ce6d80ab43cd90257e63a9962bbd11,1bce6d80ab43cd90fdfbbf3e7ce2e011,5bce6d800143cd908c2071d12fe30d11"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>expense_request</element>
+        <help/>
+        <hint/>
+        <label>Expense Request</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:08</sys_created_on>
+        <sys_id>13ce6d80ab43cd90257e63a9962bbd11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expense Request</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_129!!!_expense_request_en</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>budget</element>
+        <help/>
+        <hint/>
+        <label>Budget</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:08</sys_created_on>
+        <sys_id>1bce6d80ab43cd90fdfbbf3e7ce2e011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Budget</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_129!!!_budget_en</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>budget_type</element>
+        <help/>
+        <hint/>
+        <label>Budget Type</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:08</sys_created_on>
+        <sys_id>5bce6d800143cd908c2071d12fe30d11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Budget Type</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_129!!!_budget_type_en</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13^sys_idNOT IN17ce6d80c643cd907706023b8ecdbd11,53ce6d802a43cd907ea33ad5caddf411,57ce6d801143cd90060388940ecad511,5fce6d802343cd9033b310af1cc8e510,93ce6d80c743cd906f6dc4d86c0b1311,9fce6d800143cd905e50331243fbf210,d3ce6d80a343cd900badf85c34557f11,dfce6d809f43cd90eb5d970dc4e20a10,17ce6d80af43cd90ceffa0bbb0c48310,1bce6d802c43cd90533b39a1543a1510,1fce6d80f743cd9094a84de19c8c5c10,57ce6d80f543cd90c7404e17ab3fea10,5bce6d803243cd90d1ef933910680410,9bce6d804743cd90b5f5ee471a4f3710,d7ce6d802d43cd908c3ef0df3bbd2910,dbce6d80ea43cd90e76b1730eeb52410,13ce6d80ca43cd9064241d1857e10310,53ce6d806c43cd90a238992b0a9f1610,5fce6d80fc43cd90df260f542cc1010f,93ce6d80a843cd90f35d24eb6e73ea10,97ce6d804d43cd90137a61c4d4a46b10,9fce6d80d643cd90d551a073e34e310f,d3ce6d807843cd904787bef2d655d410,dfce6d803d43cd909534e92e0bc6620f"/>
+    <sys_choice field="budget_type" table="var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17ce6d80c643cd907706023b8ecdbd11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53ce6d802a43cd907ea33ad5caddf411</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57ce6d801143cd90060388940ecad511</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fce6d802343cd9033b310af1cc8e510</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93ce6d80c743cd906f6dc4d86c0b1311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9fce6d800143cd905e50331243fbf210</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:08</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3ce6d80a343cd900badf85c34557f11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfce6d809f43cd90eb5d970dc4e20a10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17ce6d80af43cd90ceffa0bbb0c48310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bce6d802c43cd90533b39a1543a1510</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1fce6d80f743cd9094a84de19c8c5c10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57ce6d80f543cd90c7404e17ab3fea10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bce6d803243cd90d1ef933910680410</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bce6d804743cd90b5f5ee471a4f3710</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7ce6d802d43cd908c3ef0df3bbd2910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbce6d80ea43cd90e76b1730eeb52410</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13ce6d80ca43cd9064241d1857e10310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:10</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53ce6d806c43cd90a238992b0a9f1610</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fce6d80fc43cd90df260f542cc1010f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93ce6d80a843cd90f35d24eb6e73ea10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97ce6d804d43cd90137a61c4d4a46b10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9fce6d80d643cd90d551a073e34e310f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3ce6d807843cd904787bef2d655d410</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:09</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_9fce6d804443cd90c625c47937a48c13</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfce6d803d43cd909534e92e0bc6620f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:10</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9fce6d804443cd90c625c47937a48c13"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9fce6d804443cd90c625c47937a48c13"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9fce6d804443cd90c625c47937a48c13"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9fce6d804443cd90c625c47937a48c13^sys_idNOT IN1fce6d80ab43cd90d1080844b3eb1f0f"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"1fce6d80ab43cd90d1080844b3eb1f0f","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Budget Calculations">9fce6d804443cd90c625c47937a48c13</plan_id>
+        <snapshot>a0848625c5a9c110f877f908571ff55f</snapshot>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1fce6d80ab43cd90d1080844b3eb1f0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:10</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>x_avnet_04_reyno_0.budget_calculations</internal_name>
+        <label_cache>[{"name":"f4a34b6f-9db1-4571-9a76-77bd59f5da23.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4a34b6f-9db1-4571-9a76-77bd59f5da23.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4a34b6f-9db1-4571-9a76-77bd59f5da23.table_name","label":"2 - Update Record➛FX Currency Table","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4a34b6f-9db1-4571-9a76-77bd59f5da23.record","label":"2 - Update Record➛FX Currency Record","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.budget_type","label":"Input➛Budget Type","reference":"","reference_display":"","type":"choice","base_type":"choice","column_name":"","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Add","value":"Add","order":1.0},{"label":"Sub","value":"Sub","order":2.0}],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"db6f04c0-d167-46b7-9816-ad2d05610258"}},{"name":"1a53066c-ba7d-4d89-8f32-27cb82bbdb33.record","label":"3 - Update Record➛FX Currency Record","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1a53066c-ba7d-4d89-8f32-27cb82bbdb33.table_name","label":"3 - Update Record➛FX Currency Table","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1a53066c-ba7d-4d89-8f32-27cb82bbdb33.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1a53066c-ba7d-4d89-8f32-27cb82bbdb33.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d8de9e73-dba8-4d71-b288-bb4eee179c66.record","label":"6 - Update Record➛FX Currency Record","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d8de9e73-dba8-4d71-b288-bb4eee179c66.table_name","label":"6 - Update Record➛FX Currency Table","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d8de9e73-dba8-4d71-b288-bb4eee179c66.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d8de9e73-dba8-4d71-b288-bb4eee179c66.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"65f790ab-6e08-4f45-bd83-9452e2bdf27a.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"65f790ab-6e08-4f45-bd83-9452e2bdf27a.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"65f790ab-6e08-4f45-bd83-9452e2bdf27a.__action_status__","label":"5➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"65f790ab-6e08-4f45-bd83-9452e2bdf27a.__dont_treat_as_error__","label":"5➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"3e8da934-dc36-4f2c-86fc-99e710cb4f09.record","label":"7 - Update Record➛FX Currency Record","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e8da934-dc36-4f2c-86fc-99e710cb4f09.table_name","label":"7 - Update Record➛FX Currency Table","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e8da934-dc36-4f2c-86fc-99e710cb4f09.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3e8da934-dc36-4f2c-86fc-99e710cb4f09.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Budget Calculations</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Budget Calculations">9fce6d804443cd90c625c47937a48c13</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d3ce6d805d43cd90036803bd4de1f125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:10</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d3ce6d805d43cd90036803bd4de1f125"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d3ce6d805d43cd90036803bd4de1f125"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d3ce6d805d43cd90036803bd4de1f125"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d3ce6d805d43cd90036803bd4de1f125"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d3ce6d805d43cd90036803bd4de1f125^sys_idNOT INdbce6d805143cd90157cfbf214f97d0f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d3ce6d805d43cd90036803bd4de1f125</id>
+        <name>Budget Calculations</name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:10</sys_created_on>
+        <sys_id>dbce6d805143cd90157cfbf214f97d0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:10</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=dbce6d805143cd90157cfbf214f97d0f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d3ce6d805d43cd90036803bd4de1f125^sys_idNOT IN5bce6d806c43cd90ec04180fd78f270f,9bce6d803543cd90267c606720341a0f,dfce6d809b43cd90d679165df2503024"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=9b3c37c8-21f6-4d33-bd65-32326a04fbd8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_avnet_04_reyno_0_budget_definition</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>budget</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Budget</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Budget Calculations">d3ce6d805d43cd90036803bd4de1f125</model>
+        <model_id>d3ce6d805d43cd90036803bd4de1f125</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_avnet_04_reyno_0_budget_definition">x_avnet_04_reyno_0_budget_definition</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>5bce6d806c43cd90ec04180fd78f270f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=59e35bd3-0f74-4ef4-aeb1-ff66fb80c445</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_avnet_04_reyno_0_expense_request</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>expense_request</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Expense Request</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Budget Calculations">d3ce6d805d43cd90036803bd4de1f125</model>
+        <model_id>d3ce6d805d43cd90036803bd4de1f125</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_avnet_04_reyno_0_expense_request">x_avnet_04_reyno_0_expense_request</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:10</sys_created_on>
+        <sys_id>9bce6d803543cd90267c606720341a0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=db6f04c0-d167-46b7-9816-ad2d05610258</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>budget_type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Budget Type</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Budget Calculations">d3ce6d805d43cd90036803bd4de1f125</model>
+        <model_id>d3ce6d805d43cd90036803bd4de1f125</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:11</sys_created_on>
+        <sys_id>dfce6d809b43cd90d679165df2503024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=d3ce6d805d43cd90036803bd4de1f125"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d3ce6d805d43cd90036803bd4de1f125"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d3ce6d805d43cd90036803bd4de1f125^sys_idNOT IN17ce6d80e543cd90d9908f7b1e465b0f,1bce6d806243cd90743f0bc2cabb630f,9bce6d804343cd9066b94e3a9650fa0e,d7ce6d80f143cd9023b37e502903910f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Budget Calculations">d3ce6d805d43cd90036803bd4de1f125</flow>
+        <order>7</order>
+        <parent_ui_id>fee7e493-5ff7-41c0-a946-8640badc2c69</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>17ce6d80e543cd90d9908f7b1e465b0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <ui_id>3e8da934-dc36-4f2c-86fc-99e710cb4f09</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=17ce6d80e543cd90d9908f7b1e465b0f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17ce6d80e543cd90d9908f7b1e465b0f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>97ce6d800a43cd9072f7fce8d6f9a00f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <value>fx_currency2_instance</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17ce6d80e543cd90d9908f7b1e465b0f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>dfce6d80ae43cd9011259ab29593d20e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <value>amount=fd-scripted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1^id=17ce6d80e543cd90d9908f7b1e465b0f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=17ce6d80e543cd90d9908f7b1e465b0f^sys_idNOT IN13ce6d800e43cd907f460f7b4f34620f,d3ce6d80b943cd905d98da72732a2a0f"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>17ce6d80e543cd90d9908f7b1e465b0f</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"amount":{"scriptActive":true,"script":"var res\u003dfd_data.subflow_inputs.budget.budget_spent.reference_amount - fd_data.subflow_inputs.expense_request.total_cost.reference_amount;\nvar ref_cur\u003dfd_data.subflow_inputs.budget.budget_spent.reference_currency;\nvar user_cur\u003dfd_data.subflow_inputs.budget.budget_spent.currency;\nvar conv \u003d new sn_currency.GlideCurrencyConverter(ref_cur, user_cur);\nconv.setAmount(res);\nvar result \u003d conv.convert();\nvar start \u003d result.toString().indexOf(\u0027fAmount\u0027);//get the position of fAmount\nvar end \u003d result.toString().indexOf(\u0027,\u0027, start);//get the position of the comma following fAmount\n//return result.toString().substring(start + 8, end);//get the actual fAmount value\nvar num \u003d result.toString().substring(start + 8, end);\nnum  \u003d parseFloat(num);\nreturn num.toFixed(2);","savedValue":""}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>13ce6d800e43cd907f460f7b4f34620f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>record</input_name>
+        <instance>17ce6d80e543cd90d9908f7b1e465b0f</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn fd_data.subflow_inputs.budget.budget_spent;"}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>d3ce6d80b943cd905d98da72732a2a0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=17ce6d80e543cd90d9908f7b1e465b0f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Budget Calculations">d3ce6d805d43cd90036803bd4de1f125</flow>
+        <order>2</order>
+        <parent_ui_id>b512b1b9-67c6-4f24-90ad-65965e2fe461</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>1bce6d806243cd90743f0bc2cabb630f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <ui_id>f4a34b6f-9db1-4571-9a76-77bd59f5da23</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1bce6d806243cd90743f0bc2cabb630f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1bce6d806243cd90743f0bc2cabb630f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>93ce6d807a43cd904840cf8e5041c00f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <value>amount=fd-scripted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1bce6d806243cd90743f0bc2cabb630f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>9fce6d809343cd901535620484f6a50e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <value>fx_currency2_instance</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1^id=1bce6d806243cd90743f0bc2cabb630f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1bce6d806243cd90743f0bc2cabb630f^sys_idNOT IN53ce6d800643cd90acde3b1c78f0430f,57ce6d80ea43cd9057d65ea4470c040f"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>record</input_name>
+        <instance>1bce6d806243cd90743f0bc2cabb630f</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn fd_data.subflow_inputs.budget.budget_available;"}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>53ce6d800643cd90acde3b1c78f0430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>1bce6d806243cd90743f0bc2cabb630f</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"amount":{"scriptActive":true,"script":"var res\u003dfd_data.subflow_inputs.budget.budget_available.reference_amount - fd_data.subflow_inputs.expense_request.total_cost.reference_amount;\nvar ref_cur\u003dfd_data.subflow_inputs.budget.budget_available.reference_currency;\nvar user_cur\u003dfd_data.subflow_inputs.budget.budget_available.currency;\nvar conv \u003d new sn_currency.GlideCurrencyConverter(ref_cur, user_cur);\nconv.setAmount(res);\nvar result \u003d conv.convert();\nvar start \u003d result.toString().indexOf(\u0027fAmount\u0027);//get the position of fAmount\nvar end \u003d result.toString().indexOf(\u0027,\u0027, start);//get the position of the comma following fAmount\n//return result.toString().substring(start + 8, end);//get the actual fAmount value\nvar num \u003d result.toString().substring(start + 8, end);\nnum  \u003d parseFloat(num);\nreturn num.toFixed(2);","savedValue":""}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>57ce6d80ea43cd9057d65ea4470c040f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1bce6d806243cd90743f0bc2cabb630f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Budget Calculations">d3ce6d805d43cd90036803bd4de1f125</flow>
+        <order>3</order>
+        <parent_ui_id>b512b1b9-67c6-4f24-90ad-65965e2fe461</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>9bce6d804343cd9066b94e3a9650fa0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <ui_id>1a53066c-ba7d-4d89-8f32-27cb82bbdb33</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9bce6d804343cd9066b94e3a9650fa0e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9bce6d804343cd9066b94e3a9650fa0e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>5fce6d80b443cd905aa738597c38200e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <value>amount=fd-scripted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9bce6d804343cd9066b94e3a9650fa0e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>dbce6d803443cd900c6e37c7e211e60e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <value>fx_currency2_instance</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1^id=9bce6d804343cd9066b94e3a9650fa0e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9bce6d804343cd9066b94e3a9650fa0e^sys_idNOT IN5bce6d804d43cd90dd08eeade67a560e,97ce6d805d43cd90b904ec7730fe0c0e"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>9bce6d804343cd9066b94e3a9650fa0e</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"amount":{"scriptActive":true,"script":"var res\u003dfd_data.subflow_inputs.budget.budget_spent.reference_amount + fd_data.subflow_inputs.expense_request.total_cost.reference_amount;\nvar ref_cur\u003dfd_data.subflow_inputs.budget.budget_spent.reference_currency;\nvar user_cur\u003dfd_data.subflow_inputs.budget.budget_spent.currency;\nvar conv \u003d new sn_currency.GlideCurrencyConverter(ref_cur, user_cur);\nconv.setAmount(res);\nvar result \u003d conv.convert();\nvar start \u003d result.toString().indexOf(\u0027fAmount\u0027);//get the position of fAmount\nvar end \u003d result.toString().indexOf(\u0027,\u0027, start);//get the position of the comma following fAmount\n//return result.toString().substring(start + 8, end);//get the actual fAmount value\nvar num \u003d result.toString().substring(start + 8, end);\nnum  \u003d parseFloat(num);\nreturn num.toFixed(2);","savedValue":""}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>5bce6d804d43cd90dd08eeade67a560e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>record</input_name>
+        <instance>9bce6d804343cd9066b94e3a9650fa0e</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn fd_data.subflow_inputs.budget.budget_spent;"}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>97ce6d805d43cd90b904ec7730fe0c0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9bce6d804343cd9066b94e3a9650fa0e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Budget Calculations">d3ce6d805d43cd90036803bd4de1f125</flow>
+        <order>6</order>
+        <parent_ui_id>fee7e493-5ff7-41c0-a946-8640badc2c69</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>d7ce6d80f143cd9023b37e502903910f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <ui_id>d8de9e73-dba8-4d71-b288-bb4eee179c66</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d7ce6d80f143cd9023b37e502903910f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d7ce6d80f143cd9023b37e502903910f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>1fce6d809a43cd90d2bd132583acf30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <value>amount=fd-scripted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d7ce6d80f143cd9023b37e502903910f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>d7ce6d801743cd908be44a8507a3020e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <value>fx_currency2_instance</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1^id=d7ce6d80f143cd9023b37e502903910f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d7ce6d80f143cd9023b37e502903910f^sys_idNOT IN1bce6d802a43cd9071672500e68acb0e,57ce6d808e43cd90c412a8a73d6a410e"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>d7ce6d80f143cd9023b37e502903910f</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"amount":{"scriptActive":true,"script":"var res\u003dfd_data.subflow_inputs.budget.budget_available.reference_amount + fd_data.subflow_inputs.expense_request.total_cost.reference_amount;\nvar ref_cur\u003dfd_data.subflow_inputs.budget.budget_available.reference_currency;\nvar user_cur\u003dfd_data.subflow_inputs.budget.budget_available.currency;\nvar conv \u003d new sn_currency.GlideCurrencyConverter(ref_cur, user_cur);\nconv.setAmount(res);\nvar result \u003d conv.convert();\nvar start \u003d result.toString().indexOf(\u0027fAmount\u0027);//get the position of fAmount\nvar end \u003d result.toString().indexOf(\u0027,\u0027, start);//get the position of the comma following fAmount\n//return result.toString().substring(start + 8, end);//get the actual fAmount value\nvar num \u003d result.toString().substring(start + 8, end);\nnum  \u003d parseFloat(num);\nreturn num.toFixed(2);\n","savedValue":""}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>1bce6d802a43cd9071672500e68acb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>record</input_name>
+        <instance>d7ce6d80f143cd9023b37e502903910f</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"record":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn fd_data.subflow_inputs.budget.budget_available;"}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>57ce6d808e43cd90c412a8a73d6a410e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d7ce6d80f143cd9023b37e502903910f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d3ce6d805d43cd90036803bd4de1f125"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d3ce6d805d43cd90036803bd4de1f125^sys_idNOT IN17ce6d804543cd90c837bef87f35350e,5fce6d80ea43cd909283bbe8d83f630d,d3ce6d808543cd902d443d2d2d76af0e,dfce6d801043cd906e73991d677a3b0d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">57ce6d809f43cd9012b31db28123e412</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Budget Calculations">d3ce6d805d43cd90036803bd4de1f125</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b512b1b9-67c6-4f24-90ad-65965e2fe461</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>17ce6d804543cd90c837bef87f35350e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <ui_id>c948ca2f-04fc-47db-95a9-121dac6e0d8c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=17ce6d804543cd90c837bef87f35350e"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=17ce6d804543cd90c837bef87f35350e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=17ce6d804543cd90c837bef87f35350e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">13ce6d80d143cd90b1e512b1a1ff7212</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Budget Calculations">d3ce6d805d43cd90036803bd4de1f125</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>5fce6d80ea43cd909283bbe8d83f630d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <ui_id>b512b1b9-67c6-4f24-90ad-65965e2fe461</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5fce6d80ea43cd909283bbe8d83f630d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>5fce6d80ea43cd909283bbe8d83f630d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>93ce6d809a43cd907cadc737ec43a40e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <value>Added expense total cost to budget</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5fce6d80ea43cd909283bbe8d83f630d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>5fce6d80ea43cd909283bbe8d83f630d</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>53ce6d809643cd908c032f0316358c0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.budget_type}}=Add</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5fce6d80ea43cd909283bbe8d83f630d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5fce6d80ea43cd909283bbe8d83f630d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dbce6d80e043cd9094e7781de70fca11</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Budget Calculations">d3ce6d805d43cd90036803bd4de1f125</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fee7e493-5ff7-41c0-a946-8640badc2c69</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>d3ce6d808543cd902d443d2d2d76af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <ui_id>6b7653db-7fa2-4937-aab8-672fd8aed811</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d3ce6d808543cd902d443d2d2d76af0e"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d3ce6d808543cd902d443d2d2d76af0e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d3ce6d808543cd902d443d2d2d76af0e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9fce6d80b643cd90aeea1a891980ca11</block>
+        <comment/>
+        <connected_to>b512b1b9-67c6-4f24-90ad-65965e2fe461</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Budget Calculations">d3ce6d805d43cd90036803bd4de1f125</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>dfce6d801043cd906e73991d677a3b0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <ui_id>fee7e493-5ff7-41c0-a946-8640badc2c69</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=dfce6d801043cd906e73991d677a3b0d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>dfce6d801043cd906e73991d677a3b0d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>13ce6d805343cd90665449222193cb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <value>Remove total expense cost from budget</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dfce6d801043cd906e73991d677a3b0d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>dfce6d801043cd906e73991d677a3b0d</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>9fce6d809543cd903c53782aa586100d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{subflow.budget_type}}=Sub</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=dfce6d801043cd906e73991d677a3b0d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dfce6d801043cd906e73991d677a3b0d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d3ce6d805d43cd90036803bd4de1f125"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d3ce6d805d43cd90036803bd4de1f125"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125^sys_idNOT IN1bce6d806443cd904a1387b7f6b14e0d,1fce6d80a243cd90b7196ed290a1fa0d,9bce6d80cd43cd9076156846db92e90d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>budget_type</element>
+        <help/>
+        <hint/>
+        <label>Budget Type</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+        <sys_id>1bce6d806443cd904a1387b7f6b14e0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Budget Type</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_124!!!_budget_type_en</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>budget</element>
+        <help/>
+        <hint/>
+        <label>Budget</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:12</sys_created_on>
+        <sys_id>1fce6d80a243cd90b7196ed290a1fa0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Budget</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_124!!!_budget_en</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>expense_request</element>
+        <help/>
+        <hint/>
+        <label>Expense Request</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+        <sys_id>9bce6d80cd43cd9076156846db92e90d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expense Request</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_documentation_!!!table_name_124!!!_expense_request_en</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125^sys_idNOT IN17ce6d80ae43cd908b333e8215df210d,57ce6d807e43cd90ff5d5d6ad8ce820d,5bce6d807343cd909447f78fecf5a10d,93ce6d806643cd9070ec1c3c36cb860d,97ce6d80a643cd90b81611d605a18d0d,d3ce6d80f943cd90d6fdf57556f5250d,d7ce6d80be43cd90c54564b15f218a0d,dbce6d80b043cd90cca4c8f0169a500d,13ce6d807843cd90199deb7ad6104f0d,1fce6d80a243cd9050991adba6efe30c,53ce6d80ba43cd902220656a121ab10d,5bce6d807d43cd90211d63fe9828e80c,9bce6d803243cd9056f5ded185c3d60c,9fce6d803b43cd902b23d24c1ffb700c,dbce6d80e343cd905792a0f0978de90c,dfce6d808343cd908da2d6af92dccb0c,17ce6d80fc43cd9012040e86564d2f0c,1bce6d80ec43cd90deb14248a002ca0c,57ce6d805843cd90f8145c57c416e70c,5fce6d803c43cd90b815997d5cb3ba0c,93ce6d803d43cd903445bcf3957d960c,97ce6d804043cd908f75a94df075150c,d3ce6d803343cd905af8f4bd807aba0c,d7ce6d800343cd90c128ec37db2c0b0c"/>
+    <sys_choice field="budget_type" table="var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17ce6d80ae43cd908b333e8215df210d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57ce6d807e43cd90ff5d5d6ad8ce820d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bce6d807343cd909447f78fecf5a10d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93ce6d806643cd9070ec1c3c36cb860d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97ce6d80a643cd90b81611d605a18d0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3ce6d80f943cd90d6fdf57556f5250d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7ce6d80be43cd90c54564b15f218a0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbce6d80b043cd90cca4c8f0169a500d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13ce6d807843cd90199deb7ad6104f0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1fce6d80a243cd9050991adba6efe30c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53ce6d80ba43cd902220656a121ab10d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bce6d807d43cd90211d63fe9828e80c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bce6d803243cd9056f5ded185c3d60c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9fce6d803b43cd902b23d24c1ffb700c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbce6d80e343cd905792a0f0978de90c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfce6d808343cd908da2d6af92dccb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Add</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17ce6d80fc43cd9012040e86564d2f0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bce6d80ec43cd90deb14248a002ca0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57ce6d805843cd90f8145c57c416e70c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fce6d803c43cd90b815997d5cb3ba0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93ce6d803d43cd903445bcf3957d960c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97ce6d804043cd908f75a94df075150c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3ce6d803343cd905af8f4bd807aba0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>budget_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d3ce6d805d43cd90036803bd4de1f125</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7ce6d800343cd90c128ec37db2c0b0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:56:13</sys_updated_on>
+            <value>Sub</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d3ce6d805d43cd90036803bd4de1f125"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d3ce6d805d43cd90036803bd4de1f125"/>
+    <sys_hub_flow action="update">
+        <sys_id>9fce6d804443cd90c625c47937a48c13</sys_id>
+        <latest_snapshot>d3ce6d805d43cd90036803bd4de1f125</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

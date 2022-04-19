@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_avnet_04_reyno_0_budget_definition</collection>
+        <condition>current.total_budget.changes()</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Cost approval budget adjustment</name>
+        <order>0</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+
+    if (current.operation() == "insert") {
+        current.budget_spent.setDisplayValue(current.total_budget.currency + ";" + "0.00");
+        current.budget_available.setDisplayValue(current.total_budget.currency + ";" + current.total_budget.amount);
+    } else {
+        var adjustedBudget = current.total_budget.amount - previous.total_budget.amount;
+        var budgetAvailable = current.budget_available.amount + adjustedBudget;
+        current.budget_available.setDisplayValue(current.budget_available.currency + ";" + budgetAvailable);
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:58:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>53ce2d800843cd90839fcf6b6c7c2eff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cost approval budget adjustment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_script_53ce2d800843cd90839fcf6b6c7c2eff</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:58:15</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=53ce2d800843cd90839fcf6b6c7c2eff"/>
+</record_update>

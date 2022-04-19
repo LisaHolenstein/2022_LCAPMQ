@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>declarative_action</action_type>
+        <active>true</active>
+        <declarative_action display_value="Reject Manager">93ce6d80e243cd902e6124c4e869c42c</declarative_action>
+        <description/>
+        <name>Reject Manager</name>
+        <specificity>20</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:57:46</sys_created_on>
+        <sys_id>d7ce2d80fa43cd90466a200092811f9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject Manager</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_ux_form_action_d7ce2d80fa43cd90466a200092811f9e</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:57:46</sys_updated_on>
+        <table>x_avnet_04_reyno_0_expense_request</table>
+        <ui_action/>
+    </sys_ux_form_action>
+</record_update>

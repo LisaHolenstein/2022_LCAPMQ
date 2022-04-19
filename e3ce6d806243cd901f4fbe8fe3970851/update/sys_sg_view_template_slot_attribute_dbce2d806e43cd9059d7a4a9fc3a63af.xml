@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template_slot_attribute">
+    <sys_sg_view_template_slot_attribute action="INSERT_OR_UPDATE">
+        <description>button_05_TextValue</description>
+        <name display_value="TextValue">601f19c2b7321010df65f6efce11a925</name>
+        <sys_class_name>sys_sg_view_template_slot_attribute</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:58:14</sys_created_on>
+        <sys_id>dbce2d806e43cd9059d7a4a9fc3a63af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>601f19c2b7321010df65f6efce11a925</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_sg_view_template_slot_attribute_dbce2d806e43cd9059d7a4a9fc3a63af</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:58:14</sys_updated_on>
+        <translated_value>Assign to me</translated_value>
+        <value/>
+        <view_template_slot display_value="button_05">9fce2d801843cd90bf5c18cb6bb457d1</view_template_slot>
+    </sys_sg_view_template_slot_attribute>
+    <sys_translated_text action="delete_multiple" query="documentkey=dbce2d806e43cd9059d7a4a9fc3a63af"/>
+</record_update>

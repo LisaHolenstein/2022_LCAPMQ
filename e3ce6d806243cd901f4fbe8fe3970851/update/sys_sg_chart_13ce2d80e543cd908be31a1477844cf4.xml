@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_chart">
+    <sys_sg_chart action="INSERT_OR_UPDATE">
+        <jump_to_screen display_value="Budget Navigation">9fce2d80ce43cd9031b2e00c1efff2f7</jump_to_screen>
+        <name>Budget upcoming</name>
+        <report display_value="Budget upcoming">93ce6d809343cd90bfe8f772b9045c02</report>
+        <sys_class_name>sys_sg_chart</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:57:07</sys_created_on>
+        <sys_id>13ce2d80e543cd908be31a1477844cf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Budget upcoming</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_sg_chart_13ce2d80e543cd908be31a1477844cf4</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:57:07</sys_updated_on>
+        <title/>
+        <type>report</type>
+        <widget/>
+    </sys_sg_chart>
+</record_update>

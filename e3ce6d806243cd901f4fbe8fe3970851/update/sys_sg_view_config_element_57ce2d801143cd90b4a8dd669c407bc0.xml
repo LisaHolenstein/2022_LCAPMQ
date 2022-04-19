@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>button_03_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:33</sys_created_on>
+        <sys_id>57ce2d801143cd90b4a8dd669c407bc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>button_03_element</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_57ce2d801143cd90b4a8dd669c407bc0</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:33</sys_updated_on>
+        <view_config display_value="My work Manager Record Screen Card">13ce2d80b943cd900332d7fbde3b78f2</view_config>
+        <view_template_slot display_value="button_03">d3ce2d801c43cd90eff3b08581a2c2d1</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

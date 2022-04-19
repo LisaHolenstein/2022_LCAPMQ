@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>text_03_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:58:00</sys_created_on>
+        <sys_id>9fce2d808343cd902b85c1bfb68e4bc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_03_element</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_9fce2d808343cd902b85c1bfb68e4bc2</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:58:00</sys_updated_on>
+        <view_config display_value="Requests Record Screen Card">57ce2d80e543cd90864df4ff3e9389ef</view_config>
+        <view_template_slot display_value="text_03">5fce2d80e943cd90ab358813d9a8a8d2</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

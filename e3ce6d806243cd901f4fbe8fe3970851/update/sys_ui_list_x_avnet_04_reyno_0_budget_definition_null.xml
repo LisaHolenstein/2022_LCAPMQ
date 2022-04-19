@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_avnet_04_reyno_0_budget_definition" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_avnet_04_reyno_0_budget_definition" element="NULL" name="x_avnet_04_reyno_0_budget_definition" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bce2d80fa43cd90718a693e214139ac</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:58:15</sys_created_on>
+            <sys_id>53ce2d800e43cd90908553cf0490d6ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:58:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>budget_available</element>
+            <list_id display_value="x_avnet_04_reyno_0_budget_definition" element="NULL" name="x_avnet_04_reyno_0_budget_definition" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bce2d80fa43cd90718a693e214139ac</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:58:15</sys_created_on>
+            <sys_id>17ce2d80e843cd907ec3db2d76c0c3ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:58:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>budget_spent</element>
+            <list_id display_value="x_avnet_04_reyno_0_budget_definition" element="NULL" name="x_avnet_04_reyno_0_budget_definition" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bce2d80fa43cd90718a693e214139ac</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:58:15</sys_created_on>
+            <sys_id>d7ce2d80cb43cd908b9f07b9890d84ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:58:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>end_date</element>
+            <list_id display_value="x_avnet_04_reyno_0_budget_definition" element="NULL" name="x_avnet_04_reyno_0_budget_definition" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bce2d80fa43cd90718a693e214139ac</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:58:15</sys_created_on>
+            <sys_id>97ce2d807e43cd902625abea8187e8ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:58:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>start_date</element>
+            <list_id display_value="x_avnet_04_reyno_0_budget_definition" element="NULL" name="x_avnet_04_reyno_0_budget_definition" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bce2d80fa43cd90718a693e214139ac</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:58:15</sys_created_on>
+            <sys_id>93ce2d802443cd90564c36296514fbac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:58:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total_budget</element>
+            <list_id display_value="x_avnet_04_reyno_0_budget_definition" element="NULL" name="x_avnet_04_reyno_0_budget_definition" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9bce2d80fa43cd90718a693e214139ac</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:58:15</sys_created_on>
+            <sys_id>d3ce2d800743cd909fb7a621af58a5ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:58:15</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_avnet_04_reyno_0_budget_definition</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-19 06:58:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bce2d80fa43cd90718a693e214139ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_avnet_04_reyno_0_budget_definition</sys_name>
+            <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+            <sys_update_name>sys_ui_list_x_avnet_04_reyno_0_budget_definition_null</sys_update_name>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-19 06:58:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

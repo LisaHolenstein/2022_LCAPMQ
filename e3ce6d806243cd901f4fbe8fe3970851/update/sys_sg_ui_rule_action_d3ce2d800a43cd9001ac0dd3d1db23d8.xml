@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_rule_action">
+    <sys_sg_ui_rule_action action="INSERT_OR_UPDATE">
+        <operation display_value="Set UI Style">1fc6ba105b431010da168d8fa881c7bb</operation>
+        <order/>
+        <sys_class_name>sys_sg_ui_rule_action</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:58:18</sys_created_on>
+        <sys_id>d3ce2d800a43cd9001ac0dd3d1db23d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_sg_ui_rule_action_d3ce2d800a43cd9001ac0dd3d1db23d8</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:58:18</sys_updated_on>
+        <target>view_group_04</target>
+        <ui_rule display_value="Requests overview - Manager - Cancelled - Record screen">9fce2d80b843cd909b5b5abfc3e7cfd9</ui_rule>
+        <value>{&#13;
+"BackgroundColor": "#D9D9D9",&#13;
+"FontColor": "#161B1C"&#13;
+}</value>
+    </sys_sg_ui_rule_action>
+</record_update>

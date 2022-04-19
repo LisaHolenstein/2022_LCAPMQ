@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_avnet_04_reyno_0_budget_definition</collection>
+        <condition>current.total_budget.changes() &amp;&amp; (current.budget_spent.currency != current.total_budget.currency  ||  current.total_budget.amount &lt; 1) </condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Total budget currency changes</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    if (current.budget_spent.amount > 0) {
+        var conv = new sn_currency.GlideCurrencyConverter(current.budget_spent.currency, current.total_budget.currency);
+        conv.setAmount(current.budget_spent.amount);
+        var result = conv.convert();
+        var start = result.toString().indexOf('fAmount'); //get the position of fAmount
+        var end = result.toString().indexOf(',', start); //get the position of the comma following fAmount
+        var num = result.toString().substring(start + 8, end);
+        num = parseFloat(num);
+        current.budget_spent.setDisplayValue(current.total_budget.currency + ';' + num.toFixed(2));
+        current.budget_available.setDisplayValue(current.total_budget.currency + ';' + (current.total_budget.amount - num.toFixed(2)));
+    } else {
+        if ( current.total_budget.amount < 1){
+		gs.addErrorMessage(gs.getMessage("Total budget should not be less than one"));
+		current.setAbortAction(true);
+         }
+        current.budget_spent.setDisplayValue(current.total_budget.currency + ';' + '0');
+        current.budget_available.setDisplayValue(current.total_budget.currency + ';' + current.total_budget.amount);
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 06:56:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dfce2d80e043cd909f4fcf50cd94e1fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total budget currency changes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_script_dfce2d80e043cd909f4fcf50cd94e1fe</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-19 06:56:23</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=dfce2d80e043cd909f4fcf50cd94e1fe"/>
+</record_update>
