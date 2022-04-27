@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_theme_style">
+    <m2m_theme_style action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <style display_value="Colors">a197a38107b03010e03948f78ad30059</style>
+        <sys_class_name>m2m_theme_style</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-20 12:30:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ee404e0474741d005511c42846d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>m2m_theme_style_7ee404e0474741d005511c42846d4300</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-20 12:30:32</sys_updated_on>
+        <theme display_value="Reynolds Light">b0a3cec047c3cd9005511c42846d43ae</theme>
+    </m2m_theme_style>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</application>
+        <file_path/>
+        <instance_id>8027808ddbda015042b321c4059619ae</instance_id>
+        <instance_name>analystdemodev</instance_name>
+        <name>m2m_theme_style_7ee404e0474741d005511c42846d4300</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_theme_style"><m2m_theme_style action="INSERT_OR_UPDATE"><applicability/><order>0</order><style display_value="Colors">a197a38107b03010e03948f78ad30059</style><sys_class_name>m2m_theme_style</sys_class_name><sys_created_by>lisa.holenstein</sys_created_by><sys_created_on>2022-04-20 12:30:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7ee404e0474741d005511c42846d4300</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package><sys_policy/><sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope><sys_update_name>m2m_theme_style_7ee404e0474741d005511c42846d4300</sys_update_name><sys_updated_by>lisa.holenstein</sys_updated_by><sys_updated_on>2022-04-20 12:30:32</sys_updated_on><theme display_value="Reynolds Light">b0a3cec047c3cd9005511c42846d43ae</theme></m2m_theme_style></record_update>]]></payload>
+        <payload_hash>664795674</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>80ad79884743cd9005511c42846d4309</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-20 12:30:32</sys_created_on>
+        <sys_id>e41508e0474741d005511c42846d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18046f3ed560000001</sys_recorded_at>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-20 12:30:32</sys_updated_on>
+        <type>UX Theme Style</type>
+        <update_guid>ec1508e0b24741d0aea99253a87bef6f</update_guid>
+        <update_guid_history>ec1508e0b24741d0aea99253a87bef6f:664795674</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">056548e0474741d005511c42846d4399</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-20 12:31:57</sys_created_on>
+        <sys_db_object display_value="" name="m2m_theme_style">m2m_theme_style</sys_db_object>
+        <sys_id>56968a5ccdc64106adadd038d9252b21</sys_id>
+        <sys_metadata>7ee404e0474741d005511c42846d4300</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_scope_delete display_value="">8c4892775f79405093de62d539f40110</sys_scope_delete>
+        <sys_update_name>m2m_theme_style_7ee404e0474741d005511c42846d4300</sys_update_name>
+        <sys_update_version display_value="m2m_theme_style_7ee404e0474741d005511c42846d4300">e41508e0474741d005511c42846d4370</sys_update_version>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-20 12:31:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

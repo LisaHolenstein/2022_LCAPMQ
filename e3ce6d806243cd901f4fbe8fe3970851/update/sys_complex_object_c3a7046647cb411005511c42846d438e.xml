@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD03a704663dcb4110488a7d894388b68e</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e3ce6d806243cd901f4fbe8fe3970851</scope_name>
+        <serialized_content>{"FlowDesigner:FD03a704663dcb4110488a7d894388b68e":{"$COCollectionField":[{"root_array_object":{"Expense_date":"String","Expense_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Expense_date\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"40d67450-b523-49a9-a9e3-020e73e82219\"}"},"Requestor":"String","Requestor.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Requestor\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"61d53cdf-fcea-4318-9767-70a0f9266808\"}"},"Expense_amount":"String","Expense_amount.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Expense_amount\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"cb83ef12-84a3-4a8a-ba59-bb3814fe58d1\"}"},"Expense_name":"String","Expense_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Expense_name\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"c5e62aed-03a7-4b20-9d90-e942a99b7838\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"9dda08c9-8fd4-4c9b-9470-ad0944a63c15\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Expense lines\",\"mandatory\":\"false\",\"child_name\":\"root_array_object\",\"uiUniqueId\":\"3938c09f-9541-46da-8df6-e05ba20ac5e7\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD03a704663dcb4110488a7d894388b68e\",\"child_label\":\"root_array_object\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"bd8e12a2-469c-4966-aa51-198d65b4fdbd\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"3f3c3d58-fa44-4dec-9f8f-496c25dc7b0e\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD03a704663dcb4110488a7d894388b68e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"9dda08c9-8fd4-4c9b-9470-ad0944a63c15\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Expense lines\",\"mandatory\":\"false\",\"child_name\":\"root_array_object\",\"uiUniqueId\":\"3938c09f-9541-46da-8df6-e05ba20ac5e7\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD03a704663dcb4110488a7d894388b68e\",\"child_label\":\"root_array_object\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"bd8e12a2-469c-4966-aa51-198d65b4fdbd\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"3f3c3d58-fa44-4dec-9f8f-496c25dc7b0e\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-26 17:49:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c3a7046647cb411005511c42846d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD03a704663dcb4110488a7d894388b68e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_complex_object_c3a7046647cb411005511c42846d438e</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-26 17:49:46</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

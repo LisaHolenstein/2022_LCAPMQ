@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Expense line item" max_length="40" name="x_avnet_04_reyno_0_expense_line_item" type="collection">
+    <element label="Expense line item" max_length="40" name="x_avnet_04_reyno_0_expense_line_item" sizeclass="20" type="collection">
         <element attributes="edge_encryption_enabled=true,omit_sys_original=true,serializer=com.glide.currency2.Currency2XMLSerializer" label="Expense amount" max_length="32" name="expense_amount" type="currency2"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Expense date" max_length="255" name="expense_date" type="glide_date" use_dynamic_default="true"/>
         <element label="Expense name" max_length="40" name="expense_name" type="string"/>
         <element label="Expense request" max_length="32" name="expense_request" reference="x_avnet_04_reyno_0_expense_request" type="reference"/>
+        <element label="Requestor" max_length="32" name="requestor" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="expense_amount"/>
         </index>
         <index name="index2">
             <element name="expense_request"/>
+        </index>
+        <index name="index3">
+            <element name="requestor"/>
         </index>
     </element>
 </database>

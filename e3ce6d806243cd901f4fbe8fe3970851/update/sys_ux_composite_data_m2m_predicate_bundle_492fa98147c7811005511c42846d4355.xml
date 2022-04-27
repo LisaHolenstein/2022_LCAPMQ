@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Catalog Items EVAM Definition">8e7e2d4147c7811005511c42846d43da</dataset>
+        <order>10</order>
+        <predicate_bundle display_value="Catalog Item VCB">89fea98147c7811005511c42846d4385</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-22 09:30:57</sys_created_on>
+        <sys_id>492fa98147c7811005511c42846d4355</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_492fa98147c7811005511c42846d4355</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-26 06:49:11</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

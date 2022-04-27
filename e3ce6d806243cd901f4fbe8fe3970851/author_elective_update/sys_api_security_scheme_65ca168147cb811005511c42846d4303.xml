@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_security_scheme">
+    <sys_api_security_scheme action="DELETE">
+        <allow_external_access>false</allow_external_access>
+        <api_collection display_value="Rest trigger for flow id=6e32d645478b811005511c42846d4358 - v1">bf735ac5478b811005511c42846d43d6</api_collection>
+        <enforce_acl/>
+        <requires_authentication>true</requires_authentication>
+        <sys_class_name>sys_api_security_scheme</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-22 12:41:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>65ca168147cb811005511c42846d4303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_api_security_scheme_65ca168147cb811005511c42846d4303</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-22 12:41:34</sys_updated_on>
+    </sys_api_security_scheme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</application>
+        <file_path/>
+        <instance_id>8027808ddbda015042b321c4059619ae</instance_id>
+        <instance_name>analystdemodev</instance_name>
+        <name>sys_api_security_scheme_65ca168147cb811005511c42846d4303</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_security_scheme"><sys_api_security_scheme action="INSERT_OR_UPDATE"><allow_external_access>false</allow_external_access><api_collection display_value="Rest trigger for flow id=6e32d645478b811005511c42846d4358 - v1">bf735ac5478b811005511c42846d43d6</api_collection><enforce_acl/><requires_authentication>true</requires_authentication><sys_class_name>sys_api_security_scheme</sys_class_name><sys_created_by>lisa.holenstein</sys_created_by><sys_created_on>2022-04-22 12:41:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>65ca168147cb811005511c42846d4303</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package><sys_policy/><sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope><sys_update_name>sys_api_security_scheme_65ca168147cb811005511c42846d4303</sys_update_name><sys_updated_by>lisa.holenstein</sys_updated_by><sys_updated_on>2022-04-22 12:41:34</sys_updated_on></sys_api_security_scheme></record_update>]]></payload>
+        <payload_hash>-349781840</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3ba87941470b811005511c42846d436b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-22 12:41:34</sys_created_on>
+        <sys_id>21ca168147cb811005511c42846d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180514abfdf0000001</sys_recorded_at>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-22 12:41:34</sys_updated_on>
+        <type>API Security Scheme</type>
+        <update_guid>29ca1681facb8110edfca1213e56f204</update_guid>
+        <update_guid_history>29ca1681facb8110edfca1213e56f204:-349781840</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-22 12:42:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_api_security_scheme">sys_api_security_scheme</sys_db_object>
+        <sys_id>52f8eb0ff0a3429a9b984bb6ec1269e1</sys_id>
+        <sys_metadata>65ca168147cb811005511c42846d4303</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_scope_delete display_value="">8c4892775f79405093de62d539f40110</sys_scope_delete>
+        <sys_update_name>sys_api_security_scheme_65ca168147cb811005511c42846d4303</sys_update_name>
+        <sys_update_version display_value="sys_api_security_scheme_65ca168147cb811005511c42846d4303">21ca168147cb811005511c42846d4305</sys_update_version>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-22 12:42:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

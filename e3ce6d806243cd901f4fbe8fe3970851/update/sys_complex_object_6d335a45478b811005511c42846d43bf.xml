@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDa9335a45478b811027425e2619aed0bf</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e3ce6d806243cd901f4fbe8fe3970851</scope_name>
+        <serialized_content>{"FlowDesigner:FDa9335a45478b811027425e2619aed0bf":{},"FlowDesigner:FDa9335a45478b811027425e2619aed0bf.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa9335a45478b811027425e2619aed0bf\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Path Parameters\",\"mandatory\":\"false\",\"order\":\"120\",\"max_length\":\"1024\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-22 12:08:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d335a45478b811005511c42846d43bf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FDa9335a45478b811027425e2619aed0bf</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_complex_object_6d335a45478b811005511c42846d43bf</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-22 12:41:19</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

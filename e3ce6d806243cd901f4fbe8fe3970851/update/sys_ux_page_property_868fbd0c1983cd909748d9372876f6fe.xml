@@ -4,7 +4,25 @@
         <description/>
         <name>chrome_footer</name>
         <page display_value="Reynolds Expense Portal">028fbd0c4583cd90cbcc27f180881bfc</page>
-        <required_translations>[]</required_translations>
+        <required_translations>[ {
+  "message" : "GDPR",
+  "comment" : ""
+}, {
+  "message" : "Privacy policy",
+  "comment" : ""
+}, {
+  "message" : "Terms and conditions",
+  "comment" : ""
+}, {
+  "message" : "facebook",
+  "comment" : ""
+}, {
+  "message" : "linkedin",
+  "comment" : ""
+}, {
+  "message" : "twitter",
+  "comment" : ""
+} ]</required_translations>
         <route/>
         <suffix/>
         <sys_class_name>sys_ux_page_property</sys_class_name>
@@ -13,37 +31,91 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>868fbd0c1983cd909748d9372876f6fe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>chrome_footer</sys_name>
         <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
         <sys_policy/>
         <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name>sys_ux_page_property_868fbd0c1983cd909748d9372876f6fe</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-04-19 08:08:44</sys_updated_on>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-22 09:26:05</sys_updated_on>
         <type>json</type>
         <unique_name>x_avnet_04_reyno_0.028fbd0c4583cd90cbcc27f180881bfc.root.chrome_footer</unique_name>
         <value>{&#13;
-    "public_page":{&#13;
-       "enable_footer_topbar":false,&#13;
-       "footer_topbar_options":{&#13;
-          "enable_logo":false,&#13;
-          "enable_address": false,&#13;
-          "enable_linkset_group":false,&#13;
-          "max_linkset_count":0&#13;
-       },&#13;
-       "enable_footer_bar":true,&#13;
-       "footer_bar_options":{&#13;
-          "enable_links":true,&#13;
-          "max_links_count":5,&#13;
-          "enable_social_links":false,&#13;
-          "max_social_links_count":7,&#13;
-          "social_links":[],&#13;
-          "enable_copyright_text":true,&#13;
-          "copyright_text":"© 2020 Company Inc. All rights reserved."&#13;
-       }&#13;
+    "public_page": {&#13;
+        "enable_footer_topbar": true,&#13;
+        "footer_topbar_options": {&#13;
+            "enable_logo": true,&#13;
+            "enable_address": true,&#13;
+            "address": {&#13;
+                "first_line": {&#13;
+                    "street": "2225 Lawson Lane"&#13;
+                },&#13;
+                "second_line": {&#13;
+                    "city": "Santa Clara",&#13;
+                    "state": "CA",&#13;
+                    "zip": "95054"&#13;
+                }&#13;
+            },&#13;
+            "enable_linkset_group": true,&#13;
+            "max_linkset_count": 0,&#13;
+            "width": 300&#13;
+        },&#13;
+        "enable_footer_bar": true,&#13;
+        "footer_bar_options": {&#13;
+            "enable_links": true,&#13;
+            "max_links_count": 5,&#13;
+            "links": [{&#13;
+                    "id": 1,&#13;
+                    "type": "external",&#13;
+                    "target": "_self",&#13;
+                    "label": "Terms and conditions",&#13;
+                    "itemValue": {&#13;
+                        "href": "/x/avnet/reynolds-expense-portal/landing"&#13;
+                    }&#13;
+                },&#13;
+                {&#13;
+                    "id": 2,&#13;
+                    "type": "external",&#13;
+                    "target": "_self",&#13;
+                    "label": "Privacy policy",&#13;
+                    "itemValue": {&#13;
+                        "href": "/x/avnet/reynolds-expense-portal/landing"&#13;
+                    }&#13;
+                },&#13;
+                {&#13;
+                    "id": 3,&#13;
+                    "type": "external",&#13;
+                    "target": "_self",&#13;
+                    "label": "GDPR",&#13;
+                    "itemValue": {&#13;
+                        "href": "/x/avnet/reynolds-expense-portal/landing"&#13;
+                    }&#13;
+                }&#13;
+            ],&#13;
+            "enable_social_links": true,&#13;
+            "max_social_links_count": 3,&#13;
+            "social_links": [{&#13;
+                    "icon": "twitter-fill",&#13;
+                    "label": "twitter",&#13;
+                    "url": "https://twitter.com/servicenow"&#13;
+                },&#13;
+                {&#13;
+                    "icon": "linkedin-fill",&#13;
+                    "label": "linkedin",&#13;
+                    "url": "https://www.linkedin.com/company/servicenow/"&#13;
+                },&#13;
+                {&#13;
+                    "icon": "facebook-fill",&#13;
+                    "label": "facebook",&#13;
+                    "url": "https://www.facebook.com/servicenow"&#13;
+                }&#13;
+            ],&#13;
+            "enable_copyright_text": true,&#13;
+            "copyright_text": "© 2022 Reynolds Inc. All rights reserved."&#13;
+        }&#13;
     }&#13;
- }</value>
+}</value>
     </sys_ux_page_property>
     <sys_translated_text action="delete_multiple" query="documentkey=868fbd0c1983cd909748d9372876f6fe"/>
 </record_update>

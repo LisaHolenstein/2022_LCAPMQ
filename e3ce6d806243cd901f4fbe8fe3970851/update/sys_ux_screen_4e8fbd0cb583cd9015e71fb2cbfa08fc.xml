@@ -337,8 +337,8 @@
     "value" : false
   }
 }</macroponent_config>
-        <name>Landing Page Default</name>
-        <order>0</order>
+        <name>Landing Page Reynolds Old V1</name>
+        <order>500</order>
         <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
@@ -350,15 +350,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4e8fbd0cb583cd9015e71fb2cbfa08fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Landing Page Default</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Landing Page Reynolds Old V1</sys_name>
         <sys_overrides/>
         <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
         <sys_policy/>
         <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name>sys_ux_screen_4e8fbd0cb583cd9015e71fb2cbfa08fc</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-04-19 08:08:44</sys_updated_on>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-27 13:43:34</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=4e8fbd0cb583cd9015e71fb2cbfa08fc"/>
 </record_update>

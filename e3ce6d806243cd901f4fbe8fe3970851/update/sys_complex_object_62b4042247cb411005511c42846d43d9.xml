@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDaeb4042291cb4110bb90e99f6ca323d8</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e3ce6d806243cd901f4fbe8fe3970851</scope_name>
+        <serialized_content>{"FlowDesigner:FDaeb4042291cb4110bb90e99f6ca323d8":{"root_array":[{"$0_root_array":{"Requestor":"String","Requestor.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Expense date;Expense amount;Expense name;Requestor\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"a22cefd5-46c8-4449-a7ad-39dff3b040c9\"}"}}}],"root_array.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"root_array\",\"mandatory\":\"false\",\"child_name\":\"root_array_object\",\"uiUniqueId\":\"624f3edd-34fd-4871-8948-4bd296c3ea6e\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"root_array_object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"07e28a39-206e-4d3b-b947-a989a68d32b7\"}"}},"FlowDesigner:FDaeb4042291cb4110bb90e99f6ca323d8.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"28c7a00e-117b-4960-866e-a3a4e45351b7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDaeb4042291cb4110bb90e99f6ca323d8\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-26 17:36:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>62b4042247cb411005511c42846d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDaeb4042291cb4110bb90e99f6ca323d8</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_complex_object_62b4042247cb411005511c42846d43d9</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-26 17:36:54</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

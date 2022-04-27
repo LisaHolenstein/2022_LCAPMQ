@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="INSERT_OR_UPDATE">
+        <intent display_value="expense requests">332b65024743091005511c42846d43cf</intent>
+        <original_utterance/>
+        <primary_utterance/>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-25 11:50:59</sys_created_on>
+        <sys_id>29fb69424743091005511c42846d43d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>I want to see all active expense requests</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_nlu_utterance_29fb69424743091005511c42846d43d5</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-25 11:50:59</sys_updated_on>
+        <utterance>I want to see all active expense requests</utterance>
+    </sys_nlu_utterance>
+</record_update>

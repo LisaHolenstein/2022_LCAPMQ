@@ -2,48 +2,63 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_avnet_04_reyno_0_expense_line_item" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>expense_amount</element>
-            <list_id display_value="x_avnet_04_reyno_0_expense_line_item" element="NULL" name="x_avnet_04_reyno_0_expense_line_item" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">13ce2d809143cd90f27223aa22305fad</list_id>
+            <element>expense_name</element>
+            <list_id display_value="x_avnet_04_reyno_0_expense_line_item" element="NULL" name="x_avnet_04_reyno_0_expense_line_item" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7a5b78e0478b41d005511c42846d43a8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>lisa.holenstein</sys_created_by>
-            <sys_created_on>2022-04-19 06:57:34</sys_created_on>
-            <sys_id>5fce2d806143cd90399578377405f9ac</sys_id>
+            <sys_created_on>2022-04-20 16:27:43</sys_created_on>
+            <sys_id>7a5b78e0478b41d005511c42846d43a9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>lisa.holenstein</sys_updated_by>
-            <sys_updated_on>2022-04-19 06:57:34</sys_updated_on>
+            <sys_updated_on>2022-04-20 16:27:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>expense_name</element>
-            <list_id display_value="x_avnet_04_reyno_0_expense_line_item" element="NULL" name="x_avnet_04_reyno_0_expense_line_item" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">13ce2d809143cd90f27223aa22305fad</list_id>
+            <element>expense_date</element>
+            <list_id display_value="x_avnet_04_reyno_0_expense_line_item" element="NULL" name="x_avnet_04_reyno_0_expense_line_item" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7a5b78e0478b41d005511c42846d43a8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>lisa.holenstein</sys_created_by>
-            <sys_created_on>2022-04-19 06:57:34</sys_created_on>
-            <sys_id>9fce2d80c143cd90cad8d59d0df851ac</sys_id>
+            <sys_created_on>2022-04-20 16:27:43</sys_created_on>
+            <sys_id>725b78e0478b41d005511c42846d43aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>lisa.holenstein</sys_updated_by>
-            <sys_updated_on>2022-04-19 06:57:34</sys_updated_on>
+            <sys_updated_on>2022-04-20 16:27:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>expense_request</element>
-            <list_id display_value="x_avnet_04_reyno_0_expense_line_item" element="NULL" name="x_avnet_04_reyno_0_expense_line_item" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">13ce2d809143cd90f27223aa22305fad</list_id>
+            <element>expense_amount</element>
+            <list_id display_value="x_avnet_04_reyno_0_expense_line_item" element="NULL" name="x_avnet_04_reyno_0_expense_line_item" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7a5b78e0478b41d005511c42846d43a8</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>lisa.holenstein</sys_created_by>
-            <sys_created_on>2022-04-19 06:57:34</sys_created_on>
-            <sys_id>1bce2d800943cd90bf4c98760ce7ddac</sys_id>
+            <sys_created_on>2022-04-20 16:27:43</sys_created_on>
+            <sys_id>765b78e0478b41d005511c42846d43aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>lisa.holenstein</sys_updated_by>
-            <sys_updated_on>2022-04-19 06:57:34</sys_updated_on>
+            <sys_updated_on>2022-04-20 16:27:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>expense_request</element>
+            <list_id display_value="x_avnet_04_reyno_0_expense_line_item" element="NULL" name="x_avnet_04_reyno_0_expense_line_item" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7a5b78e0478b41d005511c42846d43a8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>lisa.holenstein</sys_created_by>
+            <sys_created_on>2022-04-20 16:27:43</sys_created_on>
+            <sys_id>7a5b78e0478b41d005511c42846d43aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lisa.holenstein</sys_updated_by>
+            <sys_updated_on>2022-04-20 16:27:43</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -57,10 +72,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>lisa.holenstein</sys_created_by>
-            <sys_created_on>2022-04-19 06:57:34</sys_created_on>
+            <sys_created_on>2022-04-20 16:27:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>13ce2d809143cd90f27223aa22305fad</sys_id>
+            <sys_id>7a5b78e0478b41d005511c42846d43a8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_avnet_04_reyno_0_expense_line_item</sys_name>
             <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
@@ -68,7 +83,7 @@
             <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
             <sys_update_name>sys_ui_list_x_avnet_04_reyno_0_expense_line_item_null</sys_update_name>
             <sys_updated_by>lisa.holenstein</sys_updated_by>
-            <sys_updated_on>2022-04-19 06:57:34</sys_updated_on>
+            <sys_updated_on>2022-04-20 16:27:43</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

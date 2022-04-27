@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Impersonate the user: {{Step 2: Create a User.User}}</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-27 12:40:16</sys_created_on>
+        <sys_id>216a847a4783c11005511c42846d430a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_atf_step_216a847a4783c11005511c42846d430a</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:48:03</sys_updated_on>
+        <table/>
+        <test display_value="Inherit Requestor from Expense request">f2f804f64783c11005511c42846d4386</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=216a847a4783c11005511c42846d430a"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>216a847a4783c11005511c42846d430a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-27 12:40:16</sys_created_on>
+        <sys_id>1b6a487a4783c11005511c42846d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:40:16</sys_updated_on>
+        <value/>
+        <variable display_value="User">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=216a847a4783c11005511c42846d430a"/>
+    <sys_element_mapping action="DELETE">
+        <field>user</field>
+        <id>216a847a4783c11005511c42846d430a</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-27 12:40:16</sys_created_on>
+        <sys_id>976a487a4783c11005511c42846d4313</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:48:03</sys_updated_on>
+        <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
+        <value>{{step['1c3ac03a4783c11005511c42846d4327'].user}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</application>
+        <file_path/>
+        <instance_id>8027808ddbda015042b321c4059619ae</instance_id>
+        <instance_name>analystdemodev</instance_name>
+        <name>sys_atf_step_216a847a4783c11005511c42846d430a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Impersonate the user: {{Step 2: Create a User.User}}</description><display_name>Impersonate</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>lisa.holenstein</sys_created_by><sys_created_on>2022-04-27 12:40:16</sys_created_on><sys_id>216a847a4783c11005511c42846d430a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package><sys_policy/><sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope><sys_update_name>sys_atf_step_216a847a4783c11005511c42846d430a</sys_update_name><sys_updated_by>lisa.holenstein</sys_updated_by><sys_updated_on>2022-04-27 12:48:03</sys_updated_on><table/><test display_value="Inherit Requestor from Expense request">f2f804f64783c11005511c42846d4386</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=216a847a4783c11005511c42846d430a"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>216a847a4783c11005511c42846d430a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>lisa.holenstein</sys_created_by><sys_created_on>2022-04-27 12:40:16</sys_created_on><sys_id>1b6a487a4783c11005511c42846d4313</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>lisa.holenstein</sys_updated_by><sys_updated_on>2022-04-27 12:40:16</sys_updated_on><value/><variable display_value="User">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=216a847a4783c11005511c42846d430a"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>user</field><id>216a847a4783c11005511c42846d430a</id><sys_created_by>lisa.holenstein</sys_created_by><sys_created_on>2022-04-27 12:40:16</sys_created_on><sys_id>976a487a4783c11005511c42846d4313</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>lisa.holenstein</sys_updated_by><sys_updated_on>2022-04-27 12:48:03</sys_updated_on><table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table><value>{{step['1c3ac03a4783c11005511c42846d4327'].user}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>1395380994</payload_hash>
+        <record_name>Impersonate</record_name>
+        <reverted_from/>
+        <source>c859c8f64783c11005511c42846d43d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-27 12:48:03</sys_created_on>
+        <sys_id>d93c443e4783c11005511c42846d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1806b107a6c0000001</sys_recorded_at>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:48:03</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>dd3c443e1b83c110e5270e24eb31c1ba</update_guid>
+        <update_guid_history>dd3c443e1b83c110e5270e24eb31c1ba:1395380994,d76a487a5283c110cc6f99ce9164b315:1506922692</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-27 12:52:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>036ac99adb3a4ddf8031eee92fc998a9</sys_id>
+        <sys_metadata>216a847a4783c11005511c42846d430a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_scope_delete display_value="">8c4892775f79405093de62d539f40110</sys_scope_delete>
+        <sys_update_name>sys_atf_step_216a847a4783c11005511c42846d430a</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_216a847a4783c11005511c42846d430a">d93c443e4783c11005511c42846d43bb</sys_update_version>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:52:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

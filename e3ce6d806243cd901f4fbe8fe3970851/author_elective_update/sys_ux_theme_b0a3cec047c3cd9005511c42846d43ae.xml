@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>Reynolds Light</name>
+        <parent display_value="Polaris">31bf91ae07203010e03948f78ad30095</parent>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-19 08:26:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0a3cec047c3cd9005511c42846d43ae</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Reynolds Light</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_ux_theme_b0a3cec047c3cd9005511c42846d43ae</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-20 12:29:50</sys_updated_on>
+        <theme/>
+    </sys_ux_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</application>
+        <file_path/>
+        <instance_id>8027808ddbda015042b321c4059619ae</instance_id>
+        <instance_name>analystdemodev</instance_name>
+        <name>sys_ux_theme_b0a3cec047c3cd9005511c42846d43ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme"><sys_ux_theme action="INSERT_OR_UPDATE"><active>true</active><description/><name>Reynolds Light</name><parent display_value="Polaris">31bf91ae07203010e03948f78ad30095</parent><sys_class_name>sys_ux_theme</sys_class_name><sys_created_by>lisa.holenstein</sys_created_by><sys_created_on>2022-04-19 08:26:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b0a3cec047c3cd9005511c42846d43ae</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Reynolds Light</sys_name><sys_overrides/><sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package><sys_policy/><sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope><sys_update_name>sys_ux_theme_b0a3cec047c3cd9005511c42846d43ae</sys_update_name><sys_updated_by>lisa.holenstein</sys_updated_by><sys_updated_on>2022-04-20 12:29:50</sys_updated_on><theme/></sys_ux_theme></record_update>]]></payload>
+        <payload_hash>-676476242</payload_hash>
+        <record_name>Reynolds Light</record_name>
+        <reverted_from/>
+        <source>80ad79884743cd9005511c42846d4309</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-20 12:29:51</sys_created_on>
+        <sys_id>56e4c0e0474741d005511c42846d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18046f34a860000001</sys_recorded_at>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-20 12:29:51</sys_updated_on>
+        <type>UX Theme</type>
+        <update_guid>5ee4c0e0d04741d0d9cfd029ffd79efd</update_guid>
+        <update_guid_history>5ee4c0e0d04741d0d9cfd029ffd79efd:-676476242,67b3820497c3cd902a65568657a44888:227462727,97a34680f5c3cd90080af77240775181:1689207136</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-20 12:32:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_theme">sys_ux_theme</sys_db_object>
+        <sys_id>2b985a9bd9b44c768ba2bcca90f335e9</sys_id>
+        <sys_metadata>b0a3cec047c3cd9005511c42846d43ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reynolds Light</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_scope_delete display_value="">8c4892775f79405093de62d539f40110</sys_scope_delete>
+        <sys_update_name>sys_ux_theme_b0a3cec047c3cd9005511c42846d43ae</sys_update_name>
+        <sys_update_version display_value="sys_ux_theme_b0a3cec047c3cd9005511c42846d43ae">56e4c0e0474741d005511c42846d43fe</sys_update_version>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-20 12:32:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

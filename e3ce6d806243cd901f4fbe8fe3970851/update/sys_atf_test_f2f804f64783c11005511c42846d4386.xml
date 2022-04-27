@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Create new expense request + expense line item.&#13;
+Check if Requestor is inherited from expense request.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>Inherit Requestor from Expense request</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-27 12:35:11</sys_created_on>
+        <sys_id>f2f804f64783c11005511c42846d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inherit Requestor from Expense request</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_atf_test_f2f804f64783c11005511c42846d4386</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:35:11</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=f2f804f64783c11005511c42846d4386"/>
+</record_update>

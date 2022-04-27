@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Insert a record into 'x_avnet_04_reyno_0_expense_request' with the following values:
+Short description = Test Travel
+and Business justification = Requesting travel costs
+and Expense start date = 2022-04-29
+and Expense end date = 2022-05-04
+and Requestor = {{Step 2: Create a User.User}}
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Create an expense request</notes>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-27 12:45:10</sys_created_on>
+        <sys_id>07ea487a4783c11005511c42846d4317</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_atf_step_07ea487a4783c11005511c42846d4317</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:53:07</sys_updated_on>
+        <table>x_avnet_04_reyno_0_expense_request</table>
+        <test display_value="Inherit Requestor from Expense request">f2f804f64783c11005511c42846d4386</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=07ea487a4783c11005511c42846d4317"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>07ea487a4783c11005511c42846d4317</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-27 12:45:10</sys_created_on>
+        <sys_id>368b04fa4783c11005511c42846d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:45:10</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>07ea487a4783c11005511c42846d4317</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-27 12:45:10</sys_created_on>
+        <sys_id>ba8b04fa4783c11005511c42846d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:45:10</sys_updated_on>
+        <value>short_description=Test Travel^business_justification=Requesting travel costs^start_date=javascript:gs.daysAgo(-2);^end_date=javascript:gs.daysAgo(-7);^opened_by={{step['1c3ac03a4783c11005511c42846d4327'].user}}^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>07ea487a4783c11005511c42846d4317</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-27 12:45:10</sys_created_on>
+        <sys_id>f68b04fa4783c11005511c42846d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:45:10</sys_updated_on>
+        <value>x_avnet_04_reyno_0_expense_request</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>07ea487a4783c11005511c42846d4317</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-27 12:45:10</sys_created_on>
+        <sys_id>fa8b04fa4783c11005511c42846d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:45:10</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=07ea487a4783c11005511c42846d4317"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>07ea487a4783c11005511c42846d4317</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-27 12:45:10</sys_created_on>
+        <sys_id>b28b04fa4783c11005511c42846d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:45:10</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>07ea487a4783c11005511c42846d4317</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-27 12:45:10</sys_created_on>
+        <sys_id>7a8b04fa4783c11005511c42846d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-27 12:45:10</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>short_description=Test Travel^business_justification=Requesting travel costs^start_date=javascript:gs.daysAgo(-2);^end_date=javascript:gs.daysAgo(-7);^opened_by={{step['1c3ac03a4783c11005511c42846d4327'].user}}^EQ</value>
+    </sys_element_mapping>
+</record_update>
