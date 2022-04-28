@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value_condition">
+    <sys_highlighted_value_condition action="INSERT_OR_UPDATE">
+        <color>blue</color>
+        <conditions table="x_avnet_04_reyno_0_expense_request">state=7^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="7"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <highlighted_value display_value="state">97ce6d807343cd907969e83f7afd6628</highlighted_value>
+        <icon/>
+        <order>0</order>
+        <show_icon>true</show_icon>
+        <status/>
+        <sys_class_name>sys_highlighted_value_condition</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 12:31:23</sys_created_on>
+        <sys_id>98e19d0f4783451005511c42846d4309</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_highlighted_value_condition_98e19d0f4783451005511c42846d4309</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 12:31:34</sys_updated_on>
+        <value_override/>
+        <variant>secondary</variant>
+    </sys_highlighted_value_condition>
+</record_update>
