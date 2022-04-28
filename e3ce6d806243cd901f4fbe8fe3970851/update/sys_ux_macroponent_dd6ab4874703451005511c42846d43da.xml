@@ -2612,7 +2612,7 @@
         },
         "columns" : {
           "type" : "JSON_LITERAL",
-          "value" : ""
+          "value" : "number,state,short_description,start_date,end_date,opened_by,total_cost"
         },
         "groupByField" : {
           "type" : "JSON_LITERAL",
@@ -2624,7 +2624,7 @@
         },
         "maxColumns" : {
           "type" : "JSON_LITERAL",
-          "value" : 5
+          "value" : 7
         },
         "page" : {
           "type" : "JSON_LITERAL",
@@ -2954,13 +2954,13 @@
         <sys_created_by>lisa.holenstein</sys_created_by>
         <sys_created_on>2022-04-28 10:48:21</sys_created_on>
         <sys_id>dd6ab4874703451005511c42846d43da</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Reynolds Home</sys_name>
         <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
         <sys_policy/>
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name>sys_ux_macroponent_dd6ab4874703451005511c42846d43da</sys_update_name>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 14:12:19</sys_updated_on>
+        <sys_updated_on>2022-04-28 14:33:33</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
