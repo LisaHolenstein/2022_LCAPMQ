@@ -9,69 +9,69 @@
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <compiler_build>glide-sandiego-12-22-2021__patch1-hotfix1a-03-31-2022_04-12-2022_2208.zip</compiler_build>
-        <copied_from/>
-        <copied_from_name/>
+        <copied_from>f5695a044747cd9005511c42846d43e4</copied_from>
+        <copied_from_name>Set expense line FX currency</copied_from_name>
         <description/>
         <ih_action>false</ih_action>
-        <internal_name>set_expense_line_fx_currency</internal_name>
-        <label_cache>[{"name":"{{action.expense_line_item}}","label":"action➛Expense request","type":"action","ref":"","reference_display":"Expense request","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"837b8470-f107-481b-bc79-e83c57c65a3f"}},{"name":"{{action.amount}}","label":"action➛Amount","type":"action","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"4c38b787-c748-4b0a-9c0f-e77b46848d77"}},{"name":"{{action.currency}}","label":"action➛Currency","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.expense_line_item.sys_id}}","label":"action➛Expense request➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_avnet_04_reyno_0_expense_line_item","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.expense_request}}","label":"action➛Expense request","type":"action","ref":"","reference_display":"Expense request","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.expense_request.sys_id}}","label":"action➛Expense request➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_avnet_04_reyno_0_expense_request","column_name":"sys_id","choices":null,"attributes":{}}]</label_cache>
-        <master_snapshot>0a3ade444747cd9005511c42846d43fa</master_snapshot>
-        <name>Set expense request FX currency</name>
+        <internal_name>set_expense_request_fx_currency</internal_name>
+        <label_cache>[{"name":"{{action.expense_line_item}}","label":"action➛Expense line item","type":"action","ref":"","reference_display":"Expense request","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"837b8470-f107-481b-bc79-e83c57c65a3f"}},{"name":"{{action.amount}}","label":"action➛Amount","type":"action","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"4c38b787-c748-4b0a-9c0f-e77b46848d77"}},{"name":"{{action.currency}}","label":"action➛Currency","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.expense_line_item.sys_id}}","label":"action➛Expense line item➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_avnet_04_reyno_0_expense_line_item","column_name":"sys_id","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>915069474707451005511c42846d434c</master_snapshot>
+        <name>Set expense line FX currency</name>
         <natlang/>
         <outputs/>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:01:39</sys_created_on>
+        <sys_created_on>2022-04-28 13:30:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f5695a044747cd9005511c42846d43e4</sys_id>
-        <sys_mod_count>42</sys_mod_count>
-        <sys_name>Set expense request FX currency</sys_name>
+        <sys_id>bd6f59c34707451005511c42846d43a6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set expense line FX currency</sys_name>
         <sys_overrides/>
         <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
         <sys_policy/>
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
-        <sys_update_name>sys_hub_action_type_definition_f5695a044747cd9005511c42846d43e4</sys_update_name>
+        <sys_update_name>sys_hub_action_type_definition_bd6f59c34707451005511c42846d43a6</sys_update_name>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:34</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:07</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
-    <sys_translated_text action="delete_multiple" query="documentkey=f5695a044747cd9005511c42846d43e4"/>
-    <sys_variable_value action="delete_multiple" query="document_key=f5695a044747cd9005511c42846d43e4"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=bd6f59c34707451005511c42846d43a6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bd6f59c34707451005511c42846d43a6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
-        <document_key>f5695a044747cd9005511c42846d43e4</document_key>
+        <document_key>bd6f59c34707451005511c42846d43a6</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:02:37</sys_created_on>
-        <sys_id>00a9de044747cd9005511c42846d43ba</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2022-04-28 13:30:04</sys_created_on>
+        <sys_id>166f99c34707451005511c42846d4352</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:30:21</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD8799de045c47cd90e968301fb0a47a43":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD8799de045c47cd90e968301fb0a47a43.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"af10612f-0193-45b9-bb12-2987431c0ea6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD8799de045c47cd90e968301fb0a47a43\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
-        <variable display_value="Action Status">9399de044747cd9005511c42846d4346</variable>
+        <sys_updated_on>2022-04-28 13:34:05</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDce6f99c3fc0745103f9f0fcfeca1f73e":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDce6f99c3fc0745103f9f0fcfeca1f73e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"af10612f-0193-45b9-bb12-2987431c0ea6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDce6f99c3fc0745103f9f0fcfeca1f73e\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">166f99c34707451005511c42846d4342</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
-        <document_key>f5695a044747cd9005511c42846d43e4</document_key>
+        <document_key>bd6f59c34707451005511c42846d43a6</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:02:37</sys_created_on>
-        <sys_id>48a9de044747cd9005511c42846d43b9</sys_id>
+        <sys_created_on>2022-04-28 13:30:04</sys_created_on>
+        <sys_id>526f99c34707451005511c42846d4352</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:02:37</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:04</sys_updated_on>
         <value>0</value>
-        <variable display_value="Don't Treat as Error">2399de044747cd9005511c42846d4365</variable>
+        <variable display_value="Don't Treat as Error">566f99c34707451005511c42846d4348</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_f5695a044747cd9005511c42846d43e4^id=f5695a044747cd9005511c42846d43e4"/>
-    <sys_hub_step_instance action="delete_multiple" query="action=f5695a044747cd9005511c42846d43e4^sys_idNOT IN2a2ad6444747cd9005511c42846d4348"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_bd6f59c34707451005511c42846d43a6^id=bd6f59c34707451005511c42846d43a6"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=bd6f59c34707451005511c42846d43a6^sys_idNOT IN866f59c34707451005511c42846d43ff"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Set expense request FX currency">f5695a044747cd9005511c42846d43e4</action>
+        <action display_value="Set expense line FX currency">bd6f59c34707451005511c42846d43a6</action>
         <cid>2c49edf8-7109-44c8-ab48-245f2e4d3e9d</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -85,126 +85,126 @@
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:04:59</sys_created_on>
-        <sys_id>2a2ad6444747cd9005511c42846d4348</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2022-04-28 13:30:02</sys_created_on>
+        <sys_id>866f59c34707451005511c42846d43ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:28</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:03</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=2a2ad6444747cd9005511c42846d4348"/>
+    <sys_variable_value action="delete_multiple" query="document_key=866f59c34707451005511c42846d43ff"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>2a2ad6444747cd9005511c42846d4348</document_key>
+        <document_key>866f59c34707451005511c42846d43ff</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:01</sys_created_on>
-        <sys_id>072a9e444747cd9005511c42846d432c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>826f99c34707451005511c42846d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:31:51</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:03</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 var currencyAmount = inputs.currency + ";" + inputs.amount.toString();
-var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
-  gr_expense.get(inputs.sysId);
-  gr_expense.total_cost.setDisplayValue(currencyAmount);
-  gr_expense.update();
+var gr_expense_line = new GlideRecord("x_avnet_04_reyno_0_expense_line_item");
+  gr_expense_line.get(inputs.sysId);
+  gr_expense_line.expense_amount.setDisplayValue(currencyAmount);
+  gr_expense_line.update();
 })(inputs, outputs);
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>2a2ad6444747cd9005511c42846d4348</document_key>
+        <document_key>866f59c34707451005511c42846d43ff</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:02</sys_created_on>
-        <sys_id>1b2a9e444747cd9005511c42846d432d</sys_id>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>866f99c34707451005511c42846d433c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:02</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:03</sys_updated_on>
         <value/>
-        <variable display_value="">762a9e444747cd9005511c42846d4315</variable>
+        <variable display_value="">0a6f99c34707451005511c42846d4308</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>2a2ad6444747cd9005511c42846d4348</document_key>
+        <document_key>866f59c34707451005511c42846d43ff</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:01</sys_created_on>
-        <sys_id>432a9e444747cd9005511c42846d432c</sys_id>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>8a6f99c34707451005511c42846d433a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:01</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:03</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=2a2ad6444747cd9005511c42846d4348"/>
+    <sys_element_mapping action="delete_multiple" query="id=866f59c34707451005511c42846d43ff"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>amount</field>
-        <id>2a2ad6444747cd9005511c42846d4348</id>
+        <id>866f59c34707451005511c42846d43ff</id>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:01</sys_created_on>
-        <sys_id>032a9e444747cd9005511c42846d432d</sys_id>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>8e6f99c34707451005511c42846d433b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:01</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_2a2ad6444747cd9005511c42846d4348</table>
+        <sys_updated_on>2022-04-28 13:30:03</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_866f59c34707451005511c42846d43ff</table>
         <value>{{action.amount}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
-        <id>2a2ad6444747cd9005511c42846d4348</id>
+        <id>866f59c34707451005511c42846d43ff</id>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:01</sys_created_on>
-        <sys_id>0f2a9e444747cd9005511c42846d432b</sys_id>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>426f99c34707451005511c42846d433a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:01</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:03</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>currency</field>
-        <id>2a2ad6444747cd9005511c42846d4348</id>
+        <id>866f59c34707451005511c42846d43ff</id>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:01</sys_created_on>
-        <sys_id>c32a9e444747cd9005511c42846d432d</sys_id>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>426f99c34707451005511c42846d433c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:01</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_2a2ad6444747cd9005511c42846d4348</table>
+        <sys_updated_on>2022-04-28 13:30:03</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_866f59c34707451005511c42846d43ff</table>
         <value>{{action.currency}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
-        <id>2a2ad6444747cd9005511c42846d4348</id>
+        <id>866f59c34707451005511c42846d43ff</id>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:01</sys_created_on>
-        <sys_id>cf2a9e444747cd9005511c42846d432b</sys_id>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>0a6f99c34707451005511c42846d433a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:01</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:03</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>sysId</field>
-        <id>2a2ad6444747cd9005511c42846d4348</id>
+        <id>866f59c34707451005511c42846d43ff</id>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:02</sys_created_on>
-        <sys_id>872a9e444747cd9005511c42846d432d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>066f99c34707451005511c42846d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:28</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_2a2ad6444747cd9005511c42846d4348</table>
-        <value>{{action.expense_request.sys_id}}</value>
+        <sys_updated_on>2022-04-28 13:30:03</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_866f59c34707451005511c42846d43ff</table>
+        <value>{{action.expense_line_item.sys_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=2a2ad6444747cd9005511c42846d4348"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=2a2ad6444747cd9005511c42846d4348^sys_idNOT IN762a9e444747cd9005511c42846d4315,a1a0a1874707451005511c42846d43b7,f22a9e444747cd9005511c42846d4318"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=866f59c34707451005511c42846d43ff"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=866f59c34707451005511c42846d43ff^sys_idNOT IN0a6f99c34707451005511c42846d4308,c26f99c34707451005511c42846d4303,c66f99c34707451005511c42846d430c"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -244,10 +244,10 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <label/>
         <mandatory>true</mandatory>
         <max_length>15</max_length>
-        <model display_value="Script step">2a2ad6444747cd9005511c42846d4348</model>
-        <model_id>2a2ad6444747cd9005511c42846d4348</model_id>
+        <model display_value="Script step">866f59c34707451005511c42846d43ff</model>
+        <model_id>866f59c34707451005511c42846d43ff</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_2a2ad6444747cd9005511c42846d4348</name>
+        <name>var__m_sys_hub_step_ext_input_866f59c34707451005511c42846d43ff</name>
         <next_element/>
         <order>100</order>
         <primary>false</primary>
@@ -265,16 +265,16 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:00</sys_created_on>
-        <sys_id>762a9e444747cd9005511c42846d4315</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>0a6f99c34707451005511c42846d4308</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:00</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -325,10 +325,10 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <label/>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Script step">2a2ad6444747cd9005511c42846d4348</model>
-        <model_id>2a2ad6444747cd9005511c42846d4348</model_id>
+        <model display_value="Script step">866f59c34707451005511c42846d43ff</model>
+        <model_id>866f59c34707451005511c42846d43ff</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_2a2ad6444747cd9005511c42846d4348</name>
+        <name>var__m_sys_hub_step_ext_input_866f59c34707451005511c42846d43ff</name>
         <next_element/>
         <order>0</order>
         <primary>false</primary>
@@ -346,8 +346,8 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-28 13:35:28</sys_created_on>
-        <sys_id>a1a0a1874707451005511c42846d43b7</sys_id>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>c26f99c34707451005511c42846d4303</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -355,7 +355,7 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:32</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -406,10 +406,10 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">2a2ad6444747cd9005511c42846d4348</model>
-        <model_id>2a2ad6444747cd9005511c42846d4348</model_id>
+        <model display_value="Script step">866f59c34707451005511c42846d43ff</model>
+        <model_id>866f59c34707451005511c42846d43ff</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_2a2ad6444747cd9005511c42846d4348</name>
+        <name>var__m_sys_hub_step_ext_input_866f59c34707451005511c42846d43ff</name>
         <next_element/>
         <order>200</order>
         <primary>false</primary>
@@ -427,16 +427,16 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:00</sys_created_on>
-        <sys_id>f22a9e444747cd9005511c42846d4318</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>c66f99c34707451005511c42846d430c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:00</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -448,10 +448,10 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=2a2ad6444747cd9005511c42846d4348"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=2a2ad6444747cd9005511c42846d4348"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2a2ad6444747cd9005511c42846d4348"/>
-    <sys_hub_action_input action="delete_multiple" query="model=f5695a044747cd9005511c42846d43e4^sys_idNOT IN37b9d2444747cd9005511c42846d4304,4190a9474707451005511c42846d439b,ffb9d2444747cd9005511c42846d435f"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=866f59c34707451005511c42846d43ff"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=866f59c34707451005511c42846d43ff"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_866f59c34707451005511c42846d43ff"/>
+    <sys_hub_action_input action="delete_multiple" query="model=bd6f59c34707451005511c42846d43a6^sys_idNOT IN066f59c34707451005511c42846d43b6,426f59c34707451005511c42846d43f9,796f59c34707451005511c42846d43ad"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -491,12 +491,12 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <label>Amount</label>
         <mandatory>true</mandatory>
         <max_length>15</max_length>
-        <model display_value="Set expense request FX currency">f5695a044747cd9005511c42846d43e4</model>
-        <model_id>f5695a044747cd9005511c42846d43e4</model_id>
+        <model display_value="Set expense line FX currency">bd6f59c34707451005511c42846d43a6</model>
+        <model_id>bd6f59c34707451005511c42846d43a6</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_f5695a044747cd9005511c42846d43e4</name>
+        <name>var__m_sys_hub_action_input_bd6f59c34707451005511c42846d43a6</name>
         <next_element/>
-        <order>1</order>
+        <order>2</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -512,16 +512,16 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:03:10</sys_created_on>
-        <sys_id>37b9d2444747cd9005511c42846d4304</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2022-04-28 13:30:02</sys_created_on>
+        <sys_id>066f59c34707451005511c42846d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:28</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -533,89 +533,7 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=37b9d2444747cd9005511c42846d4304"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=8fd15ea6-d61b-4dc1-976b-5754de1fedd3</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table>x_avnet_04_reyno_0_expense_request</choice_table>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>expense_request</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="Reference">reference</internal_type>
-        <label>Expense request</label>
-        <mandatory>true</mandatory>
-        <max_length>32</max_length>
-        <model display_value="Set expense request FX currency">f5695a044747cd9005511c42846d43e4</model>
-        <model_id>f5695a044747cd9005511c42846d43e4</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_f5695a044747cd9005511c42846d43e4</name>
-        <next_element/>
-        <order>3</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference display_value="" name="x_avnet_04_reyno_0_expense_request">x_avnet_04_reyno_0_expense_request</reference>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-28 13:35:10</sys_created_on>
-        <sys_id>4190a9474707451005511c42846d439b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:28</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4190a9474707451005511c42846d439b"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=066f59c34707451005511c42846d43b6"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -655,12 +573,12 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <label>Currency</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Set expense request FX currency">f5695a044747cd9005511c42846d43e4</model>
-        <model_id>f5695a044747cd9005511c42846d43e4</model_id>
+        <model display_value="Set expense line FX currency">bd6f59c34707451005511c42846d43a6</model>
+        <model_id>bd6f59c34707451005511c42846d43a6</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_f5695a044747cd9005511c42846d43e4</name>
+        <name>var__m_sys_hub_action_input_bd6f59c34707451005511c42846d43a6</name>
         <next_element/>
-        <order>2</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -676,16 +594,16 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:03:10</sys_created_on>
-        <sys_id>ffb9d2444747cd9005511c42846d435f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2022-04-28 13:30:02</sys_created_on>
+        <sys_id>426f59c34707451005511c42846d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:28</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -697,8 +615,175 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ffb9d2444747cd9005511c42846d435f"/>
-    <sys_hub_action_output action="delete_multiple" query="model=f5695a044747cd9005511c42846d43e4^sys_idNOT IN2399de044747cd9005511c42846d4365,9399de044747cd9005511c42846d4346"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=426f59c34707451005511c42846d43f9"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=837b8470-f107-481b-bc79-e83c57c65a3f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_avnet_04_reyno_0_expense_line_item</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>expense_line_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Expense line item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Set expense line FX currency">bd6f59c34707451005511c42846d43a6</model>
+        <model_id>bd6f59c34707451005511c42846d43a6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_bd6f59c34707451005511c42846d43a6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_avnet_04_reyno_0_expense_line_item">x_avnet_04_reyno_0_expense_line_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:30:02</sys_created_on>
+        <sys_id>796f59c34707451005511c42846d43ad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:30:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=796f59c34707451005511c42846d43ad"/>
+    <sys_hub_action_output action="delete_multiple" query="model=bd6f59c34707451005511c42846d43a6^sys_idNOT IN166f99c34707451005511c42846d4342,566f99c34707451005511c42846d4348"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDce6f99c3fc0745103f9f0fcfeca1f73e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=af10612f-0193-45b9-bb12-2987431c0ea6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Set expense line FX currency">bd6f59c34707451005511c42846d43a6</model>
+        <model_id>bd6f59c34707451005511c42846d43a6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_bd6f59c34707451005511c42846d43a6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>166f99c34707451005511c42846d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:30:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=166f99c34707451005511c42846d4342"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=166f99c34707451005511c42846d4342"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -740,10 +825,10 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Set expense request FX currency">f5695a044747cd9005511c42846d43e4</model>
-        <model_id>f5695a044747cd9005511c42846d43e4</model_id>
+        <model display_value="Set expense line FX currency">bd6f59c34707451005511c42846d43a6</model>
+        <model_id>bd6f59c34707451005511c42846d43a6</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_output_f5695a044747cd9005511c42846d43e4</name>
+        <name>var__m_sys_hub_action_output_bd6f59c34707451005511c42846d43a6</name>
         <next_element/>
         <order>2</order>
         <primary>false</primary>
@@ -761,8 +846,8 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:02:35</sys_created_on>
-        <sys_id>2399de044747cd9005511c42846d4365</sys_id>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>566f99c34707451005511c42846d4348</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -770,7 +855,7 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:02:36</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -782,118 +867,33 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2399de044747cd9005511c42846d4365"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=2399de044747cd9005511c42846d4365"/>
-    <sys_hub_action_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>action_error_output=true,co_type_name=FD8799de045c47cd90e968301fb0a47a43,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=af10612f-0193-45b9-bb12-2987431c0ea6</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>__action_status__</element>
-        <element_prototype/>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_link/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Action Status</label>
-        <mandatory>false</mandatory>
-        <max_length>65000</max_length>
-        <model display_value="Set expense request FX currency">f5695a044747cd9005511c42846d43e4</model>
-        <model_id>f5695a044747cd9005511c42846d43e4</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_output_f5695a044747cd9005511c42846d43e4</name>
-        <next_element/>
-        <order>1</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_output</sys_class_name>
-        <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:02:35</sys_created_on>
-        <sys_id>9399de044747cd9005511c42846d4346</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:02:35</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9399de044747cd9005511c42846d4346"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=9399de044747cd9005511c42846d4346"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f5695a044747cd9005511c42846d43e4"/>
-    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=f5695a044747cd9005511c42846d43e4^sys_idNOT INae895e044747cd9005511c42846d430e"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=566f99c34707451005511c42846d4348"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=566f99c34707451005511c42846d4348"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=bd6f59c34707451005511c42846d43a6"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=bd6f59c34707451005511c42846d43a6^sys_idNOT INde6f99c34707451005511c42846d4353"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Set expense request FX currency">f5695a044747cd9005511c42846d43e4</action_type_id>
+        <action_type_id display_value="Set expense line FX currency">bd6f59c34707451005511c42846d43a6</action_type_id>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:02:15</sys_created_on>
-        <sys_id>ae895e044747cd9005511c42846d430e</sys_id>
+        <sys_created_on>2022-04-28 13:30:04</sys_created_on>
+        <sys_id>de6f99c34707451005511c42846d4353</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:02:15</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:04</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=ae895e044747cd9005511c42846d430e"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f5695a044747cd9005511c42846d43e4^sys_idNOT IN0cc9d2444747cd9005511c42846d4363,33b9d2444747cd9005511c42846d435f,c59021874707451005511c42846d4375"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=de6f99c34707451005511c42846d4353"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_bd6f59c34707451005511c42846d43a6^sys_idNOT IN4e6f59c34707451005511c42846d43fc,866f59c34707451005511c42846d43b5,c26f59c34707451005511c42846d43f8"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>currency</element>
         <help/>
         <hint/>
         <label>Currency</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_input_f5695a044747cd9005511c42846d43e4</name>
+        <name>var__m_sys_hub_action_input_bd6f59c34707451005511c42846d43a6</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:03:10</sys_created_on>
-        <sys_id>0cc9d2444747cd9005511c42846d4363</sys_id>
+        <sys_created_on>2022-04-28 13:30:02</sys_created_on>
+        <sys_id>4e6f59c34707451005511c42846d43fc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
@@ -901,7 +901,30 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:03:10</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>expense_line_item</element>
+        <help/>
+        <hint/>
+        <label>Expense line item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_bd6f59c34707451005511c42846d43a6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:30:02</sys_created_on>
+        <sys_id>866f59c34707451005511c42846d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:30:02</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -911,12 +934,12 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <hint/>
         <label>Amount</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_input_f5695a044747cd9005511c42846d43e4</name>
+        <name>var__m_sys_hub_action_input_bd6f59c34707451005511c42846d43a6</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:03:10</sys_created_on>
-        <sys_id>33b9d2444747cd9005511c42846d435f</sys_id>
+        <sys_created_on>2022-04-28 13:30:02</sys_created_on>
+        <sys_id>c26f59c34707451005511c42846d43f8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
@@ -924,47 +947,24 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:03:10</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:02</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>expense_request</element>
-        <help/>
-        <hint/>
-        <label>Expense request</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_f5695a044747cd9005511c42846d43e4</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-28 13:35:10</sys_created_on>
-        <sys_id>c59021874707451005511c42846d4375</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:10</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_f5695a044747cd9005511c42846d43e4"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_f5695a044747cd9005511c42846d43e4^sys_idNOT IN5399de044747cd9005511c42846d4364,7b99de044747cd9005511c42846d436b"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_bd6f59c34707451005511c42846d43a6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_bd6f59c34707451005511c42846d43a6^sys_idNOT INd66f99c34707451005511c42846d4347,de6f99c34707451005511c42846d434e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
         <hint/>
         <label>Action Status</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_output_f5695a044747cd9005511c42846d43e4</name>
+        <name>var__m_sys_hub_action_output_bd6f59c34707451005511c42846d43a6</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:02:35</sys_created_on>
-        <sys_id>5399de044747cd9005511c42846d4364</sys_id>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>d66f99c34707451005511c42846d4347</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
@@ -972,7 +972,7 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:02:35</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:03</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -982,12 +982,12 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <hint/>
         <label>Don't Treat as Error</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_output_f5695a044747cd9005511c42846d43e4</name>
+        <name>var__m_sys_hub_action_output_bd6f59c34707451005511c42846d43a6</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:02:37</sys_created_on>
-        <sys_id>7b99de044747cd9005511c42846d436b</sys_id>
+        <sys_created_on>2022-04-28 13:30:03</sys_created_on>
+        <sys_id>de6f99c34707451005511c42846d434e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
@@ -995,26 +995,26 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:02:37</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:30:03</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_f5695a044747cd9005511c42846d43e4"/>
-    <sys_hub_action_plan action="delete_multiple" query="action_id=f5695a044747cd9005511c42846d43e4^sys_idNOT IN604a52844747cd9005511c42846d435c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_bd6f59c34707451005511c42846d43a6"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=bd6f59c34707451005511c42846d43a6^sys_idNOT IN0250a9474707451005511c42846d4327"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Set expense request FX currency">f5695a044747cd9005511c42846d43e4</action_id>
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"604a52844747cd9005511c42846d435c","name":"plan","plan_signature":null}}</plan>
-        <snapshot>8ba025874707451005511c42846d43d9</snapshot>
+        <action_id display_value="Set expense line FX currency">bd6f59c34707451005511c42846d43a6</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"0250a9474707451005511c42846d4327","name":"plan","plan_signature":null}}</plan>
+        <snapshot>755069474707451005511c42846d43a9</snapshot>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:24</sys_created_on>
+        <sys_created_on>2022-04-28 13:34:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>604a52844747cd9005511c42846d435c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_id>0250a9474707451005511c42846d4327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:35</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:08</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1028,19 +1028,19 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <copied_from_name/>
         <description/>
         <internal_name>set_expense_line_fx_currency</internal_name>
-        <label_cache>[{"name":"{{action.expense_line_item}}","label":"action➛Expense request","type":"action","ref":"","reference_display":"Expense request","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"837b8470-f107-481b-bc79-e83c57c65a3f"}},{"name":"{{action.amount}}","label":"action➛Amount","type":"action","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"4c38b787-c748-4b0a-9c0f-e77b46848d77"}},{"name":"{{action.currency}}","label":"action➛Currency","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.expense_line_item.sys_id}}","label":"action➛Expense request➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_avnet_04_reyno_0_expense_line_item","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.expense_request}}","label":"action➛Expense request","type":"action","ref":"","reference_display":"Expense request","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.expense_request.sys_id}}","label":"action➛Expense request➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_avnet_04_reyno_0_expense_request","column_name":"sys_id","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.expense_line_item}}","label":"action➛Expense line item","type":"action","ref":"","reference_display":"Expense request","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"837b8470-f107-481b-bc79-e83c57c65a3f"}},{"name":"{{action.amount}}","label":"action➛Amount","type":"action","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"4c38b787-c748-4b0a-9c0f-e77b46848d77"}},{"name":"{{action.currency}}","label":"action➛Currency","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.expense_line_item.sys_id}}","label":"action➛Expense line item➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_avnet_04_reyno_0_expense_line_item","column_name":"sys_id","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
-        <name>Set expense request FX currency</name>
+        <name>Set expense line FX currency</name>
         <natlang/>
         <outputs/>
-        <parent_action display_value="Set expense request FX currency">f5695a044747cd9005511c42846d43e4</parent_action>
+        <parent_action display_value="Set expense line FX currency">bd6f59c34707451005511c42846d43a6</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:14</sys_created_on>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>0a3ade444747cd9005511c42846d43fa</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>915069474707451005511c42846d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1048,44 +1048,44 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:34</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
-    <sys_translated_text action="delete_multiple" query="documentkey=0a3ade444747cd9005511c42846d43fa"/>
-    <sys_variable_value action="delete_multiple" query="document_key=0a3ade444747cd9005511c42846d43fa"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=915069474707451005511c42846d434c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=915069474707451005511c42846d434c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
-        <document_key>0a3ade444747cd9005511c42846d43fa</document_key>
+        <document_key>915069474707451005511c42846d434c</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:21</sys_created_on>
-        <sys_id>804a12844747cd9005511c42846d43f4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2022-04-28 13:34:07</sys_created_on>
+        <sys_id>b15069474707451005511c42846d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:31:56</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDd73a12844247cd90272a92d7d56b2bc9":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDd73a12844247cd90272a92d7d56b2bc9.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"af10612f-0193-45b9-bb12-2987431c0ea6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDd73a12844247cd90272a92d7d56b2bc9\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
-        <variable display_value="Action Status">e33a12844747cd9005511c42846d43cc</variable>
+        <sys_updated_on>2022-04-28 13:34:07</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDed50694712074510c5997cf19616ef94":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDed50694712074510c5997cf19616ef94.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"af10612f-0193-45b9-bb12-2987431c0ea6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDed50694712074510c5997cf19616ef94\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">e95069474707451005511c42846d4397</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
-        <document_key>0a3ade444747cd9005511c42846d43fa</document_key>
+        <document_key>915069474707451005511c42846d434c</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:21</sys_created_on>
-        <sys_id>cc4a12844747cd9005511c42846d43f3</sys_id>
+        <sys_created_on>2022-04-28 13:34:07</sys_created_on>
+        <sys_id>fd5069474707451005511c42846d43a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:21</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:07</sys_updated_on>
         <value>0</value>
-        <variable display_value="Don't Treat as Error">ab3a12844747cd9005511c42846d43ea</variable>
+        <variable display_value="Don't Treat as Error">e55069474707451005511c42846d439d</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_0a3ade444747cd9005511c42846d43fa^id=0a3ade444747cd9005511c42846d43fa"/>
-    <sys_hub_step_instance action="delete_multiple" query="action=0a3ade444747cd9005511c42846d43fa^sys_idNOT IN473a12844747cd9005511c42846d4380"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_915069474707451005511c42846d434c^id=915069474707451005511c42846d434c"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=915069474707451005511c42846d434c^sys_idNOT IN695069474707451005511c42846d4362"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Set expense request FX currency">0a3ade444747cd9005511c42846d43fa</action>
+        <action display_value="Set expense line FX currency">915069474707451005511c42846d434c</action>
         <cid>2c49edf8-7109-44c8-ab48-245f2e4d3e9d</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1099,207 +1099,126 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:17</sys_created_on>
-        <sys_id>473a12844747cd9005511c42846d4380</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>695069474707451005511c42846d4362</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:34</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
     </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=473a12844747cd9005511c42846d4380"/>
+    <sys_variable_value action="delete_multiple" query="document_key=695069474707451005511c42846d4362"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>473a12844747cd9005511c42846d4380</document_key>
+        <document_key>695069474707451005511c42846d4362</document_key>
         <order>600</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:18</sys_created_on>
-        <sys_id>5f3a12844747cd9005511c42846d43c5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>615069474707451005511c42846d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:31:56</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 var currencyAmount = inputs.currency + ";" + inputs.amount.toString();
-var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
-  gr_expense.get(inputs.sysId);
-  gr_expense.total_cost.setDisplayValue(currencyAmount);
-  gr_expense.update();
+var gr_expense_line = new GlideRecord("x_avnet_04_reyno_0_expense_line_item");
+  gr_expense_line.get(inputs.sysId);
+  gr_expense_line.expense_amount.setDisplayValue(currencyAmount);
+  gr_expense_line.update();
 })(inputs, outputs);
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
-        <document_key>473a12844747cd9005511c42846d4380</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:18</sys_created_on>
-        <sys_id>9b3a12844747cd9005511c42846d43c5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:18</sys_updated_on>
-        <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>473a12844747cd9005511c42846d4380</document_key>
+        <document_key>695069474707451005511c42846d4362</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:19</sys_created_on>
-        <sys_id>df3a12844747cd9005511c42846d43c6</sys_id>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>655069474707451005511c42846d4392</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:19</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
         <value/>
-        <variable display_value="amount">033a12844747cd9005511c42846d43ba</variable>
+        <variable display_value="amount">e95069474707451005511c42846d4377</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=473a12844747cd9005511c42846d4380"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>695069474707451005511c42846d4362</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>695069474707451005511c42846d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=695069474707451005511c42846d4362"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>amount</field>
-        <id>473a12844747cd9005511c42846d4380</id>
+        <id>695069474707451005511c42846d4362</id>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:19</sys_created_on>
-        <sys_id>d73a12844747cd9005511c42846d43c6</sys_id>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>6d5069474707451005511c42846d4391</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:19</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_473a12844747cd9005511c42846d4380</table>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_695069474707451005511c42846d4362</table>
         <value>{{action.amount}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>application</field>
-        <id>473a12844747cd9005511c42846d4380</id>
+        <id>695069474707451005511c42846d4362</id>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:18</sys_created_on>
-        <sys_id>573a12844747cd9005511c42846d43c5</sys_id>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>215069474707451005511c42846d4390</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:18</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>currency</field>
-        <id>473a12844747cd9005511c42846d4380</id>
+        <id>695069474707451005511c42846d4362</id>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:19</sys_created_on>
-        <sys_id>9b3a12844747cd9005511c42846d43c6</sys_id>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>215069474707451005511c42846d4392</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:19</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_473a12844747cd9005511c42846d4380</table>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_695069474707451005511c42846d4362</table>
         <value>{{action.currency}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
-        <id>473a12844747cd9005511c42846d4380</id>
+        <id>695069474707451005511c42846d4362</id>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:18</sys_created_on>
-        <sys_id>1b3a12844747cd9005511c42846d43c5</sys_id>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>e55069474707451005511c42846d4390</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:18</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>sysId</field>
-        <id>473a12844747cd9005511c42846d4380</id>
+        <id>695069474707451005511c42846d4362</id>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:19</sys_created_on>
-        <sys_id>5f3a12844747cd9005511c42846d43c6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:34</sys_updated_on>
-        <table>var__m_sys_hub_step_ext_input_473a12844747cd9005511c42846d4380</table>
-        <value>{{action.expense_request.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=473a12844747cd9005511c42846d4380"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=473a12844747cd9005511c42846d4380^sys_idNOT IN033a12844747cd9005511c42846d43ba,4b3a12844747cd9005511c42846d4383,df3a12844747cd9005511c42846d43bd"/>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=decimal,uiTypeLabel=Decimal</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>amount</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="Decimal">decimal</internal_type>
-        <label>amount</label>
-        <mandatory>true</mandatory>
-        <max_length>15</max_length>
-        <model display_value="Script step">473a12844747cd9005511c42846d4380</model>
-        <model_id>473a12844747cd9005511c42846d4380</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_473a12844747cd9005511c42846d4380</name>
-        <next_element/>
-        <order>100</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:18</sys_created_on>
-        <sys_id>033a12844747cd9005511c42846d43ba</sys_id>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>e15069474707451005511c42846d4392</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:18</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_input>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_695069474707451005511c42846d4362</table>
+        <value>{{action.expense_line_item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=695069474707451005511c42846d4362"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=695069474707451005511c42846d4362^sys_idNOT IN695069474707451005511c42846d4372,a95069474707451005511c42846d437b,e95069474707451005511c42846d4377"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1339,10 +1258,10 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <label>sysId</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Script step">473a12844747cd9005511c42846d4380</model>
-        <model_id>473a12844747cd9005511c42846d4380</model_id>
+        <model display_value="Script step">695069474707451005511c42846d4362</model>
+        <model_id>695069474707451005511c42846d4362</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_473a12844747cd9005511c42846d4380</name>
+        <name>var__m_sys_hub_step_ext_input_695069474707451005511c42846d4362</name>
         <next_element/>
         <order>0</order>
         <primary>false</primary>
@@ -1360,8 +1279,8 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:18</sys_created_on>
-        <sys_id>4b3a12844747cd9005511c42846d4383</sys_id>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>695069474707451005511c42846d4372</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1369,7 +1288,7 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:18</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1420,10 +1339,10 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <label>currency</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">473a12844747cd9005511c42846d4380</model>
-        <model_id>473a12844747cd9005511c42846d4380</model_id>
+        <model display_value="Script step">695069474707451005511c42846d4362</model>
+        <model_id>695069474707451005511c42846d4362</model_id>
         <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_473a12844747cd9005511c42846d4380</name>
+        <name>var__m_sys_hub_step_ext_input_695069474707451005511c42846d4362</name>
         <next_element/>
         <order>200</order>
         <primary>false</primary>
@@ -1441,8 +1360,8 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_input</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:18</sys_created_on>
-        <sys_id>df3a12844747cd9005511c42846d43bd</sys_id>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>a95069474707451005511c42846d437b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1450,7 +1369,7 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:18</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1462,15 +1381,11 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=473a12844747cd9005511c42846d4380"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=473a12844747cd9005511c42846d4380"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_473a12844747cd9005511c42846d4380"/>
-    <sys_hub_action_input action="delete_multiple" query="model=0a3ade444747cd9005511c42846d43fa^sys_idNOT IN76a025874707451005511c42846d438f,cf3a12844747cd9005511c42846d4354,f63a12844747cd9005511c42846d4350"/>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=8fd15ea6-d61b-4dc1-976b-5754de1fedd3</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=decimal,uiTypeLabel=Decimal</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1480,7 +1395,7 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
-        <choice_table>x_avnet_04_reyno_0_expense_request</choice_table>
+        <choice_table/>
         <column_label/>
         <comments/>
         <create_roles/>
@@ -1494,7 +1409,92 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>expense_request</element>
+        <element>amount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Decimal">decimal</internal_type>
+        <label>amount</label>
+        <mandatory>true</mandatory>
+        <max_length>15</max_length>
+        <model display_value="Script step">695069474707451005511c42846d4362</model>
+        <model_id>695069474707451005511c42846d4362</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_695069474707451005511c42846d4362</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>e95069474707451005511c42846d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=695069474707451005511c42846d4362"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=695069474707451005511c42846d4362"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_695069474707451005511c42846d4362"/>
+    <sys_hub_action_input action="delete_multiple" query="model=915069474707451005511c42846d434c^sys_idNOT IN195069474707451005511c42846d434f,e55069474707451005511c42846d435c,ed5069474707451005511c42846d4357"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=837b8470-f107-481b-bc79-e83c57c65a3f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_avnet_04_reyno_0_expense_line_item</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>expense_line_item</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -1502,19 +1502,19 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <help/>
         <hint/>
         <internal_type display_value="Reference">reference</internal_type>
-        <label>Expense request</label>
+        <label>Expense line item</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Set expense request FX currency">0a3ade444747cd9005511c42846d43fa</model>
-        <model_id>0a3ade444747cd9005511c42846d43fa</model_id>
+        <model display_value="Set expense line FX currency">915069474707451005511c42846d434c</model>
+        <model_id>915069474707451005511c42846d434c</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_0a3ade444747cd9005511c42846d43fa</name>
+        <name>var__m_sys_hub_action_input_915069474707451005511c42846d434c</name>
         <next_element/>
-        <order>3</order>
+        <order>1</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_avnet_04_reyno_0_expense_request">x_avnet_04_reyno_0_expense_request</reference>
+        <reference display_value="" name="x_avnet_04_reyno_0_expense_line_item">x_avnet_04_reyno_0_expense_line_item</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -1526,8 +1526,8 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-28 13:35:34</sys_created_on>
-        <sys_id>76a025874707451005511c42846d438f</sys_id>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>195069474707451005511c42846d434f</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1535,7 +1535,7 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:34</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1547,7 +1547,7 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=76a025874707451005511c42846d438f"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=195069474707451005511c42846d434f"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1587,12 +1587,12 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <label>Currency</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Set expense request FX currency">0a3ade444747cd9005511c42846d43fa</model>
-        <model_id>0a3ade444747cd9005511c42846d43fa</model_id>
+        <model display_value="Set expense line FX currency">915069474707451005511c42846d434c</model>
+        <model_id>915069474707451005511c42846d434c</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_0a3ade444747cd9005511c42846d43fa</name>
+        <name>var__m_sys_hub_action_input_915069474707451005511c42846d434c</name>
         <next_element/>
-        <order>2</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1608,16 +1608,16 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:17</sys_created_on>
-        <sys_id>cf3a12844747cd9005511c42846d4354</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>e55069474707451005511c42846d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:34</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1629,7 +1629,7 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cf3a12844747cd9005511c42846d4354"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e55069474707451005511c42846d435c"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1669,12 +1669,12 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <label>Amount</label>
         <mandatory>true</mandatory>
         <max_length>15</max_length>
-        <model display_value="Set expense request FX currency">0a3ade444747cd9005511c42846d43fa</model>
-        <model_id>0a3ade444747cd9005511c42846d43fa</model_id>
+        <model display_value="Set expense line FX currency">915069474707451005511c42846d434c</model>
+        <model_id>915069474707451005511c42846d434c</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_0a3ade444747cd9005511c42846d43fa</name>
+        <name>var__m_sys_hub_action_input_915069474707451005511c42846d434c</name>
         <next_element/>
-        <order>1</order>
+        <order>2</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1690,16 +1690,16 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:17</sys_created_on>
-        <sys_id>f63a12844747cd9005511c42846d4350</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>ed5069474707451005511c42846d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:34</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1711,8 +1711,8 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f63a12844747cd9005511c42846d4350"/>
-    <sys_hub_action_output action="delete_multiple" query="model=0a3ade444747cd9005511c42846d43fa^sys_idNOT INab3a12844747cd9005511c42846d43ea,e33a12844747cd9005511c42846d43cc"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ed5069474707451005511c42846d4357"/>
+    <sys_hub_action_output action="delete_multiple" query="model=915069474707451005511c42846d434c^sys_idNOT INe55069474707451005511c42846d439d,e95069474707451005511c42846d4397"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1754,10 +1754,10 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Set expense request FX currency">0a3ade444747cd9005511c42846d43fa</model>
-        <model_id>0a3ade444747cd9005511c42846d43fa</model_id>
+        <model display_value="Set expense line FX currency">915069474707451005511c42846d434c</model>
+        <model_id>915069474707451005511c42846d434c</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_output_0a3ade444747cd9005511c42846d43fa</name>
+        <name>var__m_sys_hub_action_output_915069474707451005511c42846d434c</name>
         <next_element/>
         <order>2</order>
         <primary>false</primary>
@@ -1775,8 +1775,8 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:20</sys_created_on>
-        <sys_id>ab3a12844747cd9005511c42846d43ea</sys_id>
+        <sys_created_on>2022-04-28 13:34:07</sys_created_on>
+        <sys_id>e55069474707451005511c42846d439d</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1784,7 +1784,7 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:20</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1796,13 +1796,13 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ab3a12844747cd9005511c42846d43ea"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=ab3a12844747cd9005511c42846d43ea"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e55069474707451005511c42846d439d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e55069474707451005511c42846d439d"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>action_error_output=true,co_type_name=FDd73a12844247cd90272a92d7d56b2bc9,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=af10612f-0193-45b9-bb12-2987431c0ea6</attributes>
+        <attributes>action_error_output=true,co_type_name=FDed50694712074510c5997cf19616ef94,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=af10612f-0193-45b9-bb12-2987431c0ea6</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1839,10 +1839,10 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Set expense request FX currency">0a3ade444747cd9005511c42846d43fa</model>
-        <model_id>0a3ade444747cd9005511c42846d43fa</model_id>
+        <model display_value="Set expense line FX currency">915069474707451005511c42846d434c</model>
+        <model_id>915069474707451005511c42846d434c</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_output_0a3ade444747cd9005511c42846d43fa</name>
+        <name>var__m_sys_hub_action_output_915069474707451005511c42846d434c</name>
         <next_element/>
         <order>1</order>
         <primary>false</primary>
@@ -1860,8 +1860,8 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:19</sys_created_on>
-        <sys_id>e33a12844747cd9005511c42846d43cc</sys_id>
+        <sys_created_on>2022-04-28 13:34:07</sys_created_on>
+        <sys_id>e95069474707451005511c42846d4397</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1869,7 +1869,7 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:19</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1881,33 +1881,33 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e33a12844747cd9005511c42846d43cc"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=e33a12844747cd9005511c42846d43cc"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0a3ade444747cd9005511c42846d43fa"/>
-    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=0a3ade444747cd9005511c42846d43fa^sys_idNOT IN4c4a12844747cd9005511c42846d43f5"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e95069474707451005511c42846d4397"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e95069474707451005511c42846d4397"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=915069474707451005511c42846d434c"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=915069474707451005511c42846d434c^sys_idNOT IN7d5069474707451005511c42846d43a8"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Set expense request FX currency">0a3ade444747cd9005511c42846d43fa</action_type_id>
+        <action_type_id display_value="Set expense line FX currency">915069474707451005511c42846d434c</action_type_id>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:21</sys_created_on>
-        <sys_id>4c4a12844747cd9005511c42846d43f5</sys_id>
+        <sys_created_on>2022-04-28 13:34:07</sys_created_on>
+        <sys_id>7d5069474707451005511c42846d43a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:21</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:07</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=4c4a12844747cd9005511c42846d43f5"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0a3ade444747cd9005511c42846d43fa^sys_idNOT IN033a12844747cd9005511c42846d4354,47a025874707451005511c42846d43a1,4f3a12844747cd9005511c42846d437d"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=7d5069474707451005511c42846d43a8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_915069474707451005511c42846d434c^sys_idNOT IN615069474707451005511c42846d4357,615069474707451005511c42846d4360,695069474707451005511c42846d435b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>amount</element>
+        <element>expense_line_item</element>
         <help/>
         <hint/>
-        <label>Amount</label>
+        <label>Expense line item</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_input_0a3ade444747cd9005511c42846d43fa</name>
+        <name>var__m_sys_hub_action_input_915069474707451005511c42846d434c</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:17</sys_created_on>
-        <sys_id>033a12844747cd9005511c42846d4354</sys_id>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>615069474707451005511c42846d4357</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
@@ -1915,30 +1915,7 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:17</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>expense_request</element>
-        <help/>
-        <hint/>
-        <label>Expense request</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_0a3ade444747cd9005511c42846d43fa</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-28 13:35:34</sys_created_on>
-        <sys_id>47a025874707451005511c42846d43a1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-28 13:35:34</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1948,12 +1925,12 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <hint/>
         <label>Currency</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_input_0a3ade444747cd9005511c42846d43fa</name>
+        <name>var__m_sys_hub_action_input_915069474707451005511c42846d434c</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:17</sys_created_on>
-        <sys_id>4f3a12844747cd9005511c42846d437d</sys_id>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>615069474707451005511c42846d4360</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
@@ -1961,24 +1938,47 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:17</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0a3ade444747cd9005511c42846d43fa"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0a3ade444747cd9005511c42846d43fa^sys_idNOT IN6f3a12844747cd9005511c42846d43d0,bf3a12844747cd9005511c42846d43f0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>amount</element>
+        <help/>
+        <hint/>
+        <label>Amount</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_915069474707451005511c42846d434c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:34:06</sys_created_on>
+        <sys_id>695069474707451005511c42846d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:34:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_915069474707451005511c42846d434c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_915069474707451005511c42846d434c^sys_idNOT IN695069474707451005511c42846d439c,ed5069474707451005511c42846d43a3"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
         <hint/>
         <label>Action Status</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_output_0a3ade444747cd9005511c42846d43fa</name>
+        <name>var__m_sys_hub_action_output_915069474707451005511c42846d434c</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:20</sys_created_on>
-        <sys_id>6f3a12844747cd9005511c42846d43d0</sys_id>
+        <sys_created_on>2022-04-28 13:34:07</sys_created_on>
+        <sys_id>695069474707451005511c42846d439c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
@@ -1986,7 +1986,7 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:20</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:07</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1996,12 +1996,12 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <hint/>
         <label>Don't Treat as Error</label>
         <language>en</language>
-        <name>var__m_sys_hub_action_output_0a3ade444747cd9005511c42846d43fa</name>
+        <name>var__m_sys_hub_action_output_915069474707451005511c42846d434c</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>lisa.holenstein</sys_created_by>
-        <sys_created_on>2022-04-19 10:05:21</sys_created_on>
-        <sys_id>bf3a12844747cd9005511c42846d43f0</sys_id>
+        <sys_created_on>2022-04-28 13:34:07</sys_created_on>
+        <sys_id>ed5069474707451005511c42846d43a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
@@ -2009,13 +2009,13 @@ var gr_expense = new GlideRecord("x_avnet_04_reyno_0_expense_request");
         <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name/>
         <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-19 10:05:21</sys_updated_on>
+        <sys_updated_on>2022-04-28 13:34:07</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_0a3ade444747cd9005511c42846d43fa"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_915069474707451005511c42846d434c"/>
     <sys_hub_action_type_definition action="update">
-        <sys_id>f5695a044747cd9005511c42846d43e4</sys_id>
-        <latest_snapshot>0a3ade444747cd9005511c42846d43fa</latest_snapshot>
+        <sys_id>bd6f59c34707451005511c42846d43a6</sys_id>
+        <latest_snapshot>915069474707451005511c42846d434c</latest_snapshot>
     </sys_hub_action_type_definition>
 </record_update>

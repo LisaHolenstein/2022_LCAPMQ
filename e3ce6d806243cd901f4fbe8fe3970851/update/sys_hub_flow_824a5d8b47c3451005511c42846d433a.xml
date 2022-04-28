@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch1-hotfix1a-03-31-2022_04-12-2022_2208.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>update_total_cost</internal_name>
+        <label_cache>[{"name":"2ce6bbd7-63a1-457c-b44a-1e567fc7fd06.__dont_treat_as_error__","label":"2 - Set expense request FX currency➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"034a9535-8e91-4d58-b53a-dc73e474e812"}},{"name":"2ce6bbd7-63a1-457c-b44a-1e567fc7fd06.__action_status__","label":"2 - Set expense request FX currency➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd73a12844247cd90272a92d7d56b2bc9","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"af10612f-0193-45b9-bb12-2987431c0ea6"}},{"name":"flow_variable.total_cost","label":"Flow Variables➛Total cost","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"eb175d90-705f-44a1-9697-a27ca2c5c1ff"}},{"name":"subflow.expense_request","label":"Input➛Expense request","reference":"x_avnet_04_reyno_0_expense_request","reference_display":"Expense request","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7e08a082-5412-4c52-8597-62e945f1371a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"77f1bb16-a835-466c-a72c-3aaf86e19b8c.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77f1bb16-a835-466c-a72c-3aaf86e19b8c.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77f1bb16-a835-466c-a72c-3aaf86e19b8c.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77f1bb16-a835-466c-a72c-3aaf86e19b8c.Table","label":"1 - Look Up Records➛Expense line item Table","reference":"x_avnet_04_reyno_0_expense_line_item","reference_display":"Expense line item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77f1bb16-a835-466c-a72c-3aaf86e19b8c.Records","label":"1 - Look Up Records➛Expense line item Records","reference":"x_avnet_04_reyno_0_expense_line_item","reference_display":"Expense line item","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a209ca84-df96-4793-81f7-80f93f780ed1.item","label":"2 - For Each➛Expense line item Record","reference":"x_avnet_04_reyno_0_expense_line_item","reference_display":"Expense line item","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"76a5d11e-1e4e-4097-ab1d-4654ba6d2d58.__action_status__","label":"4 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"76a5d11e-1e4e-4097-ab1d-4654ba6d2d58.__dont_treat_as_error__","label":"4 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a209ca84-df96-4793-81f7-80f93f780ed1.item.expense_amount","label":"2 - For Each➛Expense line item Record➛Expense amount","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"currency2","base_type":"currency2","parent_table_name":"x_avnet_04_reyno_0_expense_line_item","column_name":"expense_amount"},{"name":"b8494204-bcf9-4687-b100-c30e003435ce.__action_status__","label":"2 - Set expense line FX currency➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd73a12844247cd90272a92d7d56b2bc9","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"af10612f-0193-45b9-bb12-2987431c0ea6"}},{"name":"b8494204-bcf9-4687-b100-c30e003435ce.__dont_treat_as_error__","label":"2 - Set expense line FX currency➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"034a9535-8e91-4d58-b53a-dc73e474e812"}}]</label_cache>
+        <master_snapshot>32f1614b4707451005511c42846d4376</master_snapshot>
+        <name>Update total cost</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:07:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>824a5d8b47c3451005511c42846d433a</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Update total cost</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_hub_flow_824a5d8b47c3451005511c42846d433a</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:20</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=824a5d8b47c3451005511c42846d433a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=824a5d8b47c3451005511c42846d433a"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=824a5d8b47c3451005511c42846d433a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=824a5d8b47c3451005511c42846d433a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=824a5d8b47c3451005511c42846d433a^sys_idNOT INce4a5d8b47c3451005511c42846d433a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>824a5d8b47c3451005511c42846d433a</id>
+        <name>Update total cost</name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:07:39</sys_created_on>
+        <sys_id>ce4a5d8b47c3451005511c42846d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:07:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ce4a5d8b47c3451005511c42846d433a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=824a5d8b47c3451005511c42846d433a^sys_idNOT IN386a11cb47c3451005511c42846d4300"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=7e08a082-5412-4c52-8597-62e945f1371a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_avnet_04_reyno_0_expense_request</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>expense_request</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Expense request</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Update total cost">824a5d8b47c3451005511c42846d433a</model>
+        <model_id>824a5d8b47c3451005511c42846d433a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_824a5d8b47c3451005511c42846d433a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_avnet_04_reyno_0_expense_request">x_avnet_04_reyno_0_expense_request</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:08:07</sys_created_on>
+        <sys_id>386a11cb47c3451005511c42846d4300</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:08:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=824a5d8b47c3451005511c42846d433a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=824a5d8b47c3451005511c42846d433a"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=824a5d8b47c3451005511c42846d433a^sys_idNOT INe3c0a9874707451005511c42846d434c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Set expense request FX currency">0a3ade444747cd9005511c42846d43fa</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>0a3ade444747cd9005511c42846d43fa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update total cost">824a5d8b47c3451005511c42846d433a</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:36:09</sys_created_on>
+        <sys_id>e3c0a9874707451005511c42846d434c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:42:41</sys_updated_on>
+        <ui_id>2ce6bbd7-63a1-457c-b44a-1e567fc7fd06</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e3c0a9874707451005511c42846d434c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e3c0a9874707451005511c42846d434c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:36:09</sys_created_on>
+        <sys_id>a3c0a9874707451005511c42846d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:36:09</sys_updated_on>
+        <value/>
+        <variable display_value="Amount">f63a12844747cd9005511c42846d4350</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e3c0a9874707451005511c42846d434c</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:36:09</sys_created_on>
+        <sys_id>abc0a9874707451005511c42846d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:36:09</sys_updated_on>
+        <value>USD</value>
+        <variable display_value="Currency">cf3a12844747cd9005511c42846d4354</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e3c0a9874707451005511c42846d434c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>amount</field>
+        <id>e3c0a9874707451005511c42846d434c</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:36:09</sys_created_on>
+        <sys_id>6fc0a9874707451005511c42846d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:36:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0a3ade444747cd9005511c42846d43fa</table>
+        <value>{{flow_variable.total_cost}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>currency</field>
+        <id>e3c0a9874707451005511c42846d434c</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:36:09</sys_created_on>
+        <sys_id>23c0a9874707451005511c42846d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:36:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0a3ade444747cd9005511c42846d43fa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>expense_request</field>
+        <id>e3c0a9874707451005511c42846d434c</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:36:09</sys_created_on>
+        <sys_id>a7c0a9874707451005511c42846d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:36:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0a3ade444747cd9005511c42846d43fa</table>
+        <value>{{subflow.expense_request}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e3c0a9874707451005511c42846d434c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e3c0a9874707451005511c42846d434c"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=824a5d8b47c3451005511c42846d433a"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=824a5d8b47c3451005511c42846d433a^sys_idNOT INe53dd9cf47c3451005511c42846d43dc"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2d3dd9cf47c3451005511c42846d43db</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update total cost">824a5d8b47c3451005511c42846d433a</flow>
+        <flow_variable/>
+        <flow_variables_assigned>total_cost</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:20:27</sys_created_on>
+        <sys_id>e53dd9cf47c3451005511c42846d43dc</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:20</sys_updated_on>
+        <ui_id>0820d774-bb8f-492f-b258-5dc99d679199</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e53dd9cf47c3451005511c42846d43dc"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_824a5d8b47c3451005511c42846d433a^id=e53dd9cf47c3451005511c42846d43dc"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e53dd9cf47c3451005511c42846d43dc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e53dd9cf47c3451005511c42846d43dc^sys_idNOT INa53dd9cf47c3451005511c42846d43dd"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>total_cost</input_name>
+        <instance>e53dd9cf47c3451005511c42846d43dc</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"total_cost":{"scriptActive":true,"script":"var output \u003d \"\";\nvar agg \u003d new GlideAggregate(\u0027x_avnet_04_reyno_0_expense_line_item\u0027);\nagg.addAggregate(\u0027SUM\u0027, \u0027expense_amount\u0027);\nagg.setGroup(false);\nagg.addQuery(\u0027expense_request\u0027,fd_data.subflow_inputs.expense_request.sys_id);\nagg.addQuery(\u0027sys_created_on\u0027, \u0027\u003e\u003d\u0027, \u0027javascript:gs.beginningOfLast12Months()\u0027);\nagg.query();\nwhile (agg.next()) {\n    var totalCost \u003d agg.getAggregate(\u0027SUM\u0027, \u0027expense_amount\u0027);\n    return totalCost.substring(totalCost.indexOf(\";\")+1,totalCost.length);\n}\n"}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:20:27</sys_created_on>
+        <sys_id>a53dd9cf47c3451005511c42846d43dd</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:27:48</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=824a5d8b47c3451005511c42846d433a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=824a5d8b47c3451005511c42846d433a^sys_idNOT IN819ad5cb47c3451005511c42846d438c"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=eb175d90-705f-44a1-9697-a27ca2c5c1ff</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_cost</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Total cost</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update total cost">824a5d8b47c3451005511c42846d433a</model>
+        <model_id>824a5d8b47c3451005511c42846d433a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_824a5d8b47c3451005511c42846d433a</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:08:57</sys_created_on>
+        <sys_id>819ad5cb47c3451005511c42846d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total cost</sys_name>
+        <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_819ad5cb47c3451005511c42846d438c</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:08:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_824a5d8b47c3451005511c42846d433a^sys_idNOT IN306a11cb47c3451005511c42846d4307"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>expense_request</element>
+        <help/>
+        <hint/>
+        <label>Expense request</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_824a5d8b47c3451005511c42846d433a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:08:07</sys_created_on>
+        <sys_id>306a11cb47c3451005511c42846d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:08:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_824a5d8b47c3451005511c42846d433a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_824a5d8b47c3451005511c42846d433a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_824a5d8b47c3451005511c42846d433a"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=824a5d8b47c3451005511c42846d433a"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=824a5d8b47c3451005511c42846d433a^sys_idNOT INdbf1a14b4707451005511c42846d435f"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"dbf1a14b4707451005511c42846d435f","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Update total cost">824a5d8b47c3451005511c42846d433a</plan_id>
+        <snapshot>8f42218b4707451005511c42846d436c</snapshot>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:41:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbf1a14b4707451005511c42846d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:20</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>update_total_cost</internal_name>
+        <label_cache>[{"name":"2ce6bbd7-63a1-457c-b44a-1e567fc7fd06.__dont_treat_as_error__","label":"2 - Set expense request FX currency➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"034a9535-8e91-4d58-b53a-dc73e474e812"}},{"name":"2ce6bbd7-63a1-457c-b44a-1e567fc7fd06.__action_status__","label":"2 - Set expense request FX currency➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd73a12844247cd90272a92d7d56b2bc9","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"af10612f-0193-45b9-bb12-2987431c0ea6"}},{"name":"flow_variable.total_cost","label":"Flow Variables➛Total cost","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"eb175d90-705f-44a1-9697-a27ca2c5c1ff"}},{"name":"subflow.expense_request","label":"Input➛Expense request","reference":"x_avnet_04_reyno_0_expense_request","reference_display":"Expense request","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7e08a082-5412-4c52-8597-62e945f1371a","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"77f1bb16-a835-466c-a72c-3aaf86e19b8c.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77f1bb16-a835-466c-a72c-3aaf86e19b8c.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77f1bb16-a835-466c-a72c-3aaf86e19b8c.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77f1bb16-a835-466c-a72c-3aaf86e19b8c.Table","label":"1 - Look Up Records➛Expense line item Table","reference":"x_avnet_04_reyno_0_expense_line_item","reference_display":"Expense line item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"77f1bb16-a835-466c-a72c-3aaf86e19b8c.Records","label":"1 - Look Up Records➛Expense line item Records","reference":"x_avnet_04_reyno_0_expense_line_item","reference_display":"Expense line item","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a209ca84-df96-4793-81f7-80f93f780ed1.item","label":"2 - For Each➛Expense line item Record","reference":"x_avnet_04_reyno_0_expense_line_item","reference_display":"Expense line item","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"76a5d11e-1e4e-4097-ab1d-4654ba6d2d58.__action_status__","label":"4 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"76a5d11e-1e4e-4097-ab1d-4654ba6d2d58.__dont_treat_as_error__","label":"4 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a209ca84-df96-4793-81f7-80f93f780ed1.item.expense_amount","label":"2 - For Each➛Expense line item Record➛Expense amount","reference":"fx_currency2_instance","reference_display":"FX Currency","type":"currency2","base_type":"currency2","parent_table_name":"x_avnet_04_reyno_0_expense_line_item","column_name":"expense_amount"},{"name":"b8494204-bcf9-4687-b100-c30e003435ce.__action_status__","label":"2 - Set expense line FX currency➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDd73a12844247cd90272a92d7d56b2bc9","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"af10612f-0193-45b9-bb12-2987431c0ea6"}},{"name":"b8494204-bcf9-4687-b100-c30e003435ce.__dont_treat_as_error__","label":"2 - Set expense line FX currency➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"034a9535-8e91-4d58-b53a-dc73e474e812"}}]</label_cache>
+        <master>true</master>
+        <name>Update total cost</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Update total cost">824a5d8b47c3451005511c42846d433a</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:41:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32f1614b4707451005511c42846d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:17</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=32f1614b4707451005511c42846d4376"/>
+    <sys_variable_value action="delete_multiple" query="document_key=32f1614b4707451005511c42846d4376"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=32f1614b4707451005511c42846d4376"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=32f1614b4707451005511c42846d4376"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=32f1614b4707451005511c42846d4376^sys_idNOT INb2f1614b4707451005511c42846d4377"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>32f1614b4707451005511c42846d4376</id>
+        <name>Update total cost</name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:41:17</sys_created_on>
+        <sys_id>b2f1614b4707451005511c42846d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:17</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b2f1614b4707451005511c42846d4377"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=32f1614b4707451005511c42846d4376^sys_idNOT INf2f1614b4707451005511c42846d4378"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=7e08a082-5412-4c52-8597-62e945f1371a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_avnet_04_reyno_0_expense_request</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>expense_request</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Expense request</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Update total cost">32f1614b4707451005511c42846d4376</model>
+        <model_id>32f1614b4707451005511c42846d4376</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_32f1614b4707451005511c42846d4376</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_avnet_04_reyno_0_expense_request">x_avnet_04_reyno_0_expense_request</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:41:17</sys_created_on>
+        <sys_id>f2f1614b4707451005511c42846d4378</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=32f1614b4707451005511c42846d4376"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=32f1614b4707451005511c42846d4376"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=32f1614b4707451005511c42846d4376^sys_idNOT IN97f1a14b4707451005511c42846d4341"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Set expense request FX currency">0a3ade444747cd9005511c42846d43fa</action_type>
+        <action_type_parent display_value="Set expense request FX currency">f5695a044747cd9005511c42846d43e4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>0a3ade444747cd9005511c42846d43fa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update total cost">32f1614b4707451005511c42846d4376</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:41:19</sys_created_on>
+        <sys_id>97f1a14b4707451005511c42846d4341</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:19</sys_updated_on>
+        <ui_id>2ce6bbd7-63a1-457c-b44a-1e567fc7fd06</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=97f1a14b4707451005511c42846d4341"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>97f1a14b4707451005511c42846d4341</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:41:19</sys_created_on>
+        <sys_id>17f1a14b4707451005511c42846d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:19</sys_updated_on>
+        <value>USD</value>
+        <variable display_value="Currency">cf3a12844747cd9005511c42846d4354</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>97f1a14b4707451005511c42846d4341</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:41:19</sys_created_on>
+        <sys_id>1ff1a14b4707451005511c42846d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:19</sys_updated_on>
+        <value/>
+        <variable display_value="Amount">f63a12844747cd9005511c42846d4350</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=97f1a14b4707451005511c42846d4341"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>amount</field>
+        <id>97f1a14b4707451005511c42846d4341</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:41:19</sys_created_on>
+        <sys_id>d7f1a14b4707451005511c42846d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0a3ade444747cd9005511c42846d43fa</table>
+        <value>{{flow_variable.total_cost}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>currency</field>
+        <id>97f1a14b4707451005511c42846d4341</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:41:19</sys_created_on>
+        <sys_id>9bf1a14b4707451005511c42846d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0a3ade444747cd9005511c42846d43fa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>expense_request</field>
+        <id>97f1a14b4707451005511c42846d4341</id>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:41:19</sys_created_on>
+        <sys_id>13f1a14b4707451005511c42846d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0a3ade444747cd9005511c42846d43fa</table>
+        <value>{{subflow.expense_request}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=97f1a14b4707451005511c42846d4341"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=97f1a14b4707451005511c42846d4341"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=32f1614b4707451005511c42846d4376"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=32f1614b4707451005511c42846d4376^sys_idNOT IN07f1a14b4707451005511c42846d431a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2d3dd9cf47c3451005511c42846d43db</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update total cost">32f1614b4707451005511c42846d4376</flow>
+        <flow_variable/>
+        <flow_variables_assigned>total_cost</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:41:18</sys_created_on>
+        <sys_id>07f1a14b4707451005511c42846d431a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:19</sys_updated_on>
+        <ui_id>0820d774-bb8f-492f-b258-5dc99d679199</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=07f1a14b4707451005511c42846d431a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_32f1614b4707451005511c42846d4376^id=07f1a14b4707451005511c42846d431a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=07f1a14b4707451005511c42846d431a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=07f1a14b4707451005511c42846d431a^sys_idNOT INc7f1a14b4707451005511c42846d431b"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>total_cost</input_name>
+        <instance>07f1a14b4707451005511c42846d431a</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"total_cost":{"scriptActive":true,"script":"var output \u003d \"\";\nvar agg \u003d new GlideAggregate(\u0027x_avnet_04_reyno_0_expense_line_item\u0027);\nagg.addAggregate(\u0027SUM\u0027, \u0027expense_amount\u0027);\nagg.setGroup(false);\nagg.addQuery(\u0027expense_request\u0027,fd_data.subflow_inputs.expense_request.sys_id);\nagg.addQuery(\u0027sys_created_on\u0027, \u0027\u003e\u003d\u0027, \u0027javascript:gs.beginningOfLast12Months()\u0027);\nagg.query();\nwhile (agg.next()) {\n    var totalCost \u003d agg.getAggregate(\u0027SUM\u0027, \u0027expense_amount\u0027);\n    return totalCost.substring(totalCost.indexOf(\";\")+1,totalCost.length);\n}\n"}}</script>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:41:18</sys_created_on>
+        <sys_id>c7f1a14b4707451005511c42846d431b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:18</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=32f1614b4707451005511c42846d4376"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=32f1614b4707451005511c42846d4376^sys_idNOT IN03f1614b4707451005511c42846d43bd"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=eb175d90-705f-44a1-9697-a27ca2c5c1ff</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_cost</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Total cost</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update total cost">32f1614b4707451005511c42846d4376</model>
+        <model_id>32f1614b4707451005511c42846d4376</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_32f1614b4707451005511c42846d4376</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:41:18</sys_created_on>
+        <sys_id>03f1614b4707451005511c42846d43bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total cost</sys_name>
+        <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_03f1614b4707451005511c42846d43bd</sys_update_name>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_32f1614b4707451005511c42846d4376^sys_idNOT IN3ef1614b4707451005511c42846d43a6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>expense_request</element>
+        <help/>
+        <hint/>
+        <label>Expense request</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_32f1614b4707451005511c42846d4376</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>lisa.holenstein</sys_created_by>
+        <sys_created_on>2022-04-28 13:41:18</sys_created_on>
+        <sys_id>3ef1614b4707451005511c42846d43a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>lisa.holenstein</sys_updated_by>
+        <sys_updated_on>2022-04-28 13:41:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_32f1614b4707451005511c42846d4376"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_32f1614b4707451005511c42846d4376"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_32f1614b4707451005511c42846d4376"/>
+    <sys_hub_flow action="update">
+        <sys_id>824a5d8b47c3451005511c42846d433a</sys_id>
+        <latest_snapshot>32f1614b4707451005511c42846d4376</latest_snapshot>
+    </sys_hub_flow>
+</record_update>
