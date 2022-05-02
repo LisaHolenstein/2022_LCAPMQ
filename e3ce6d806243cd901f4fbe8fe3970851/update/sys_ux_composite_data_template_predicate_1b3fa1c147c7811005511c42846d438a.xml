@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
     <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="sc_cat_item">category=d258b953c611227a0146101fb1be7c31^active=true^EQ<item display_table="sc_category" display_value="Hardware" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="d258b953c611227a0146101fb1be7c31"/>
+        <condition table="sc_cat_item">category=a5bba45c47530d1005511c42846d4343^active=true^EQ<item display_table="sc_category" display_value="Finance Request" endquery="false" field="category" goto="false" newquery="false" operator="=" or="false" value="a5bba45c47530d1005511c42846d4343"/>
             <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <custom_condition/>
         <custom_field_list/>
-        <field_list>name,short_description,description,delivery_time,picture,price,vendor.name,category.title,icon,model.display_name</field_list>
+        <field_list>name,short_description,description,delivery_time,picture,price,category.title,icon</field_list>
         <name>Catalog Item VC</name>
         <order>100</order>
         <predicate_bundle display_value="Catalog Item VCB">89fea98147c7811005511c42846d4385</predicate_bundle>
@@ -16,14 +16,14 @@
         <sys_created_by>lisa.holenstein</sys_created_by>
         <sys_created_on>2022-04-22 09:33:41</sys_created_on>
         <sys_id>1b3fa1c147c7811005511c42846d438a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Catalog Item VC</sys_name>
-        <sys_package display_value="04 Reynolds Expense" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
+        <sys_package display_value="Expense Management" source="x_avnet_04_reyno_0">e3ce6d806243cd901f4fbe8fe3970851</sys_package>
         <sys_policy/>
-        <sys_scope display_value="04 Reynolds Expense">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
+        <sys_scope display_value="Expense Management">e3ce6d806243cd901f4fbe8fe3970851</sys_scope>
         <sys_update_name>sys_ux_composite_data_template_predicate_1b3fa1c147c7811005511c42846d438a</sys_update_name>
-        <sys_updated_by>lisa.holenstein</sys_updated_by>
-        <sys_updated_on>2022-04-26 06:55:22</sys_updated_on>
+        <sys_updated_by>praveen.vootkuri</sys_updated_by>
+        <sys_updated_on>2022-05-02 07:36:13</sys_updated_on>
         <table>sc_cat_item</table>
         <ux_template display_value="Catalog Item VT">a531b556474f011005511c42846d4399</ux_template>
     </sys_ux_composite_data_template_predicate>
